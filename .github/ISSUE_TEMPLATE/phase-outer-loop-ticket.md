@@ -25,13 +25,11 @@ assignees: ''
 ### How
 <!-- Identify one resource (article, video, doc, etc.) for each remaining class session this phase. Your goal is to make this a manageable piece that you can read/digest before each class period. You will take notes and present a summary (in your own words!) in each class and on the course wiki. -->
 
-| Class Date | Resource Link | Consumed |
-| --- | --- | --- |
-|  |  | - [ ]  |
-|  |  | - [ ]  |
-|  |  | - [ ]  |
-|  |  | - [ ]  |
-|  |  | - [ ]  |
-|  |  | - [ ]  |
-|  |  | - [ ]  |
-|  |  | - [ ]  |
+- [ ] *Put class date here:* Put resource URL here
+- [ ] *Put class date here:* Put resource URL here
+- [ ] *Put class date here:* Put resource URL here
+- [ ] *Put class date here:* Put resource URL here
+- [ ] *Put class date here:* Put resource URL here
+- [ ] *Put class date here:* Put resource URL here
+- [ ] *Put class date here:* Put resource URL here
+- [ ] *Put class date here:* Put resource URL here
