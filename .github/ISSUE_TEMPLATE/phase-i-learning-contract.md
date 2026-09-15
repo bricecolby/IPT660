@@ -7,6 +7,16 @@ assignees: ''
 
 ---
 
+<!-- 
+Your ticket must include all three: content (with stated learning outcomes, at least one assignment, and one quiz bank. 
+
+Your content must be committed as JSON to GitHub following the shape we define on 9/17. 
+
+Your work happens on its own branch with regular, meaningful commits. 
+
+Remember, the point of this ticket is where you're deliberately practicing GitHub and working with genAI to hold a format. Learning how to use these tools is half the point of this ticket. 
+--> 
+
 ### What are you building? (Summary)
 <!-- Name the module or piece of content you're claiming. Be specific enough that a classmate reading this knows exactly what you're covering. -->
 
