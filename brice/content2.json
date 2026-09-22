@@ -1,0 +1,89 @@
+{
+  "moduleId": "m00b-pokemon-master-advanced",
+  "title": "Pokémon Mastery II: Advanced Strategy",
+  "learningOutcomes": [
+    "Learners will be able to sequence a multi-turn strategy around a predicted opponent response.",
+    "Learners will be able to identify when a team's type coverage has a critical gap and propose a fix.",
+    "Recognizing the difference between a 'safe' switch and a 'greedy' switch, and when each is warranted.",
+    "Learners will be able to critique a competitive team list and justify a proposed change."
+  ],
+  "sections": [
+    {
+      "sectionId": "s1",
+      "heading": "Momentum: Why Tempo Beats Raw Power",
+      "body": "In competitive play, the trainer who dictates tempo usually wins even with a statistically weaker team. Momentum means forcing your opponent to react to you — through hazards, forced switches, or threats they can't ignore — rather than the reverse. A team built purely around individual Pokémon strength, without a plan for controlling tempo, tends to lose to a team that's less flashy but better sequenced."
+    },
+    {
+      "sectionId": "s2",
+      "heading": "Entry Hazards and Long-Game Thinking",
+      "body": "Moves like Stealth Rock and Spikes don't do anything on the turn they're used — their value shows up three, four, five turns later, chipping away at every Pokémon the opponent switches in. Planning around hazards means thinking in terms of the whole match, not just the current exchange: is this trade worth it if it sets up a better position two turns from now?"
+    },
+    {
+      "sectionId": "s3",
+      "heading": "Identifying Coverage Gaps",
+      "body": "A coverage gap is a type (or a specific dangerous Pokémon) your entire team struggles to answer. The fix isn't always 'add a Pokémon that beats it' — sometimes it's accepting the gap and building a plan to play around it instead, such as keeping a sacrificial switch-in in reserve specifically to absorb that one threat."
+    }
+  ],
+  "assignments": [
+    {
+      "id": "a1",
+      "title": "Sequence a Three-Turn Plan",
+      "instructions": "Given a provided battle state (both active Pokémon, both remaining teams, and current field conditions), write out your intended play for the next three turns, including at least one branch for what you'll do if your prediction of the opponent's move is wrong."
+    },
+    {
+      "id": "a2",
+      "title": "Diagnose a Coverage Gap",
+      "instructions": "Given a sample six-Pokémon team, identify its single biggest coverage gap and propose two different fixes: one that changes a team member, and one that keeps the team as-is but adjusts the game plan around the gap."
+    },
+    {
+      "id": "a3",
+      "title": "Peer Team Critique",
+      "instructions": "Exchange team lists with a partner. Write a short critique (100-200 words) identifying one strength and one weakness in their team's coverage or role distribution, and suggest one concrete change."
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "q1",
+      "prompt": "What best describes 'momentum' in competitive Pokémon battling?",
+      "options": [
+        "Having the fastest Pokémon on the field",
+        "Forcing your opponent to react to your threats rather than the reverse",
+        "Always attacking instead of switching",
+        "Using only Pokémon with high base stat totals"
+      ],
+      "correctAnswer": "Forcing your opponent to react to your threats rather than the reverse",
+      "feedback": {
+        "correct": "Right — momentum is about controlling the exchange, not raw speed or power.",
+        "incorrect": "Momentum is about who's dictating the exchange, not about speed stats or attacking on principle."
+      }
+    },
+    {
+      "questionId": "q2",
+      "prompt": "Why might a trainer use Stealth Rock even though it deals no immediate damage to the opponent's active Pokémon?",
+      "options": [
+        "It has no strategic value and is only used out of habit",
+        "It guarantees a win within two turns",
+        "Its value compounds over the match as the opponent is forced to switch Pokémon in and out",
+        "It prevents the opponent from using any items"
+      ],
+      "correctAnswer": "Its value compounds over the match as the opponent is forced to switch Pokémon in and out.",
+      "feedback": {
+        "correct": "Exactly — hazards are a long-game investment, not an immediate-turn payoff.",
+        "incorrect": "Think about the timescale hazards operate on — the payoff isn't immediate, it accumulates as switches happen."
+      }
+    },
+    {
+      "questionId": "q3",
+      "prompt": "A team has no reliable answer to a specific fast, high-damage threat. What is presented as a valid response to this gap?",
+      "options": [
+        "Every gap must be closed by adding a new team member before the team can be considered usable",
+        "Ignore it — coverage gaps are rare enough not to matter in practice",
+        "Accept the gap and build a plan around it, such as designating a sacrificial switch-in",
+        "Coverage gaps only matter in single-player battles, not competitive play"
+      ],
+      "correctAnswer": "Accept the gap and build a plan around it, such as designating a sacrificial switch-in",
+      "correctFeedback": "Right — not every gap needs a roster change; sometimes the fix is a game-plan decision instead.",
+      "incorrectFeedback": "The section makes the case that gaps can be played around strategically, not just closed by roster changes."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "moduleId": "m00-pokemon-master",
+  "title": "How to Be a Pokémon Master",
+  "learningOutcomes": [
+    "Learners will be able to explain the core loop of catching, training, and battling Pokémon.",
+    "Learners will be able to construct a balanced six-Pokémon team by reasoning about type coverage and role diversity.",
+    "Learners will be able to apply type-matchup logic to predict the outcome of a given matchup before it happens.",
+    "Learners will be able to evaluate a battle strategy (yours or an opponent's) and identify its strengths and exploitable weaknesses.",
+    "Learners will be able to defend a team-building decision by citing the tradeoffs it was designed around."
+  ],
+  "sections": [
+    {
+      "sectionId": "s1",
+      "heading": "The Core Loop: Catch, Train, Battle",
+      "body": "Every Pokémon journey runs on the same three-beat loop, over and over, from Route 1 to the Elite Four: you **catch** Pokémon to expand your options, you **train** them to make those options viable, and you **battle** to test whether your choices actually hold up. Most new trainers over-invest in the first beat (catching everything that moves) and under-invest in the third (actually battling with intention). A Pokémon Master isn't the trainer with the biggest Pokédex — it's the trainer who can look at any six Pokémon and tell you *why* those six, and what each one is for."
+    },
+    {
+      "sectionId": "s2",
+      "heading": "Types Aren't Flavor — They're the Rules of the Game",
+      "body": "The 18 Pokémon types form a directed graph of advantage: Fire beats Grass, Grass beats Water, Water beats Fire, and so on, with double-edges, resistances, and outright immunities layered on top (Ground moves simply cannot hit a Flying-type — 0x damage, not just reduced). Treat the type chart the way you'd treat any rule system you need to reason under: you don't need to memorize all 324 interactions on day one, but you do need a mental model good enough to predict *roughly* what happens before you commit to a move. A Master doesn't look up the chart mid-battle. They've internalized enough of it to make a fast, confident call — and know when a specific matchup is uncertain enough to double check."
+    },
+    {
+      "sectionId": "s3",
+      "heading": "Team Composition: Six Slots, Many Jobs",
+      "body": "A team of six is a set of tradeoffs, not six copies of 'my favorite Pokémon.' Strong teams typically distribute a few recurring jobs across their slots: a **physical sweeper** (hits hard, moves first or survives to hit back), a **special sweeper** (same idea, different damage category), a **wall or tank** (soaks hits, stalls out the opponent's resources), a **status/support** Pokémon (inflicts paralysis, sleep, or stat drops to swing the tempo), and often a **pivot** (something built to switch in and out safely, scouting the opponent's move). You don't need one of each on every team, but you should be able to say what job every Pokémon on your team is doing — 'it's here because I like it' isn't a scoping decision, it's the absence of one."
+    },
+    {
+      "sectionId": "s4",
+      "heading": "Reading the Battle, Not Just the Move List",
+      "body": "Battling well is less about knowing your own Pokémon and more about modeling your opponent's incentives. Before you commit to a move, ask: what does my opponent want to do right now, and what's the worst thing that could happen to me if I'm wrong? Strong trainers play around likely responses — switching out before a predicted counter lands, or baiting an opponent into a bad trade. This is the procedural core of mastery: it can't be memorized from a chart, it has to be practiced, lost, and adjusted, battle after battle."
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "a1",
+      "title": "Build and Defend a Six-Pokémon Team",
+      "instructions": "Draft a team of six Pokémon for a standard-format battle. For each Pokémon, state its intended job on the team (sweeper, wall, support, pivot, etc.) in one sentence. Then write a short defense (150–250 words) explaining: (1) what type-coverage gap you were trying to close, (2) one deliberate weakness you accepted as a tradeoff and why, and (3) which single Pokémon on your team you'd cut first if forced to go to five, and why."
+    },
+    {
+      "assignmentId": "a2",
+      "title": "Matchup Prediction Log",
+      "instructions": "Given five provided battle scenarios (each showing both trainers' active Pokémon and remaining team), predict the outcome of the immediate turn before checking the answer key — state which move you'd expect the stronger player to make and why. Then compare your prediction to the actual outcome and write one or two sentences on any mismatch: was your type-matchup reasoning wrong, or did you miss something about the opponent's likely incentive?"
+    },
+    {
+      "assignmentId": "a3",
+      "title": "Critique a Battle Replay",
+      "instructions": "Watch the provided replay of a ranked battle. Identify one moment where a trainer made a strong strategic read (a good switch, a well-timed status move, a smart sacrifice) and one moment where a trainer made an avoidable mistake. For each, explain what information was available to the trainer at that point and what a stronger decision would have looked like."
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "q1",
+      "prompt": "A Ground-type move is used against a pure Flying-type Pokémon. What happens?",
+      "options": [
+        "It deals normal damage",
+        "It deals reduced (not very effective) damage",
+        "It deals zero damage — the move has no effect",
+        "It deals increased (super effective) damage"
+      ],
+      "correctAnswer": "It deals zero damage — the move has no effect",
+      "feedback": {
+        "correct": "Right — Flying-types are flatly immune to Ground-type moves, not just resistant. That's a 0x multiplier, distinct from a 0.5x resistance.",
+        "incorrect": "Not quite — Flying-types have a full immunity to Ground moves (0x damage), which is a stronger interaction than a simple resistance."
+      }
+    },
+    {
+      "questionId": "q2",
+      "prompt": "Which of these is the best description of a 'pivot' Pokémon's job on a team?",
+      "options": [
+        "It deals the most raw damage on the team",
+        "It's built to switch in safely and scout or reposition the team, not necessarily to win the fight outright",
+        "It has the highest HP stat on the team",
+        "It's only used against Legendary Pokémon"
+      ],
+      "correctAnswer": "It's built to switch in safely and scout or reposition the team, not necessarily to win the fight outright",
+      "feedback": {
+        "correct": "Exactly — a pivot's value is tempo and safety: it lets you gather information or reposition without losing ground, which is a different job than a sweeper's.",
+        "incorrect": "A pivot's main job is tempo and safety on the switch, not raw damage or bulk — that's a sweeper's or wall's job respectively."
+      }
+    },
+    {
+      "questionId": "q3",
+      "prompt": "A team is composed of six Pokémon chosen purely because they're the trainer's favorites, with no attention to type coverage or role. What is the most accurate critique?",
+      "options": [
+        "This is a perfectly valid strategy as long as the Pokémon have high base stats",
+        "The team lacks a scoped rationale — no one Pokémon's role, or the gaps between them, has been reasoned about",
+        "This team is guaranteed to lose to any team with an Elite Four member",
+        "Favorite-based teams always have better type coverage than planned teams"
+      ],
+      "correctAnswer": "The team lacks a scoped rationale — no one Pokémon's role, or the gaps between them, has been reasoned about",
+      "feedback": {
+        "correct": "Right — the issue isn't that favorites are bad Pokémon, it's that no tradeoff was actually made. 'I like it' isn't a job description.",
+        "incorrect": "The real issue isn't win/loss guarantees — it's that no deliberate role or tradeoff was reasoned about when the team was built."
+      }
+    },
+    {
+      "questionId": "q4",
+      "prompt": "Before committing to a move, a strong trainer primarily asks themselves:",
+      "options": [
+        "What does my opponent most want to do right now, and what's my worst case if I'm wrong?",
+        "Which of my moves has the highest base power, regardless of type matchup?",
+        "Which Pokémon on my team has appeared in the most official artwork?",
+        "What would happen if I used this exact move in every future battle?"
+      ],
+      "correctAnswer": "What does my opponent most want to do right now, and what's my worst case if I'm wrong?",
+      "feedback": {
+        "correct": "Yes — reading the opponent's likely response, and bounding your downside if you're wrong, is the core of in-battle decision-making.",
+        "incorrect": "Raw base power without modeling the opponent's likely response is exactly the trap this section warns against — think about their incentive first."
+      }
+    }
+  ]
+}

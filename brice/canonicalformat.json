@@ -1,0 +1,33 @@
+{
+  "moduleId": "string — short unique slug, e.g. \"m03-variables\"",
+  "title": "string — the module's display name",
+  "learningOutcomes": [
+    "string — one per outcome, phrased as 'learners will be able to...'"
+  ],
+  "sections": [
+    {
+      "sectionId": "string — unique within this module, e.g. \"s1\"",
+      "heading": "string",
+      "body": "string — the actual instructional content, plain text or basic markdown"
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "string — unique within this module, e.g. \"a1\"",
+      "title": "string",
+      "instructions": "string — what the learner is asked to do"
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "string — unique within this module, e.g. \"q1\"",
+      "prompt": "string",
+      "options": ["string", "string", "string", "string"],
+      "correctAnswer": "string — must exactly match one entry in options",
+      "feedback": {
+        "correct": "string",
+        "incorrect": "string"
+      }
+    }
+  ]
+}
