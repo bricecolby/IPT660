@@ -1,0 +1,327 @@
+const groupFruitCourse = {
+  id: "groupfruit-theory",
+  title: "GroupFruit Theory: The Five Essential Group Roles",
+  audience: [
+    "Teachers seeking to improve group activities",
+    "Supervisors seeking to improve team effectiveness"
+  ],
+
+  learningObjectives: [
+    "Identify the five essential group roles.",
+    "Explain the primary function of each role.",
+    "Describe how the roles work together.",
+    "Recognize that all group members should fluidly function in all five roles as circumstances require."
+  ],
+
+  modules: [
+    {
+      id: "introduction",
+      title: "Introduction to GroupFruit Theory",
+      content: [
+        {
+          type: "text",
+          text:
+            "GroupFruit Theory teaches that successful groups require five essential functions: Facilitator, Recorder, Unifier, Inventor, and Tester. Although people may have strengths in particular roles, effective group members move fluidly among all five roles as situations require."
+        }
+      ]
+    },
+
+    {
+      id: "facilitator",
+      title: "Facilitator: Provides Coordination",
+      content: [
+        {
+          type: "bullets",
+          items: [
+            "Values all group members.",
+            "Matches tasks to individual talents.",
+            "Filters distractions and keeps discussion on agenda.",
+            "Helps groups make timely decisions."
+          ]
+        }
+      ]
+    },
+
+    {
+      id: "recorder",
+      title: "Recorder: Provides Memory",
+      content: [
+        {
+          type: "bullets",
+          items: [
+            "Documents discussions, assignments, decisions, and deadlines.",
+            "Communicates important information.",
+            "Keeps absent members informed.",
+            "Maintains updates and records."
+          ]
+        }
+      ]
+    },
+
+    {
+      id: "unifier",
+      title: "Unifier: Provides Cohesion",
+      content: [
+        {
+          type: "bullets",
+          items: [
+            "Welcomes people.",
+            "Recognizes talents and contributions.",
+            "Invites participation.",
+            "Expresses appreciation."
+          ]
+        }
+      ]
+    },
+
+    {
+      id: "inventor",
+      title: "Inventor: Provides Creativity",
+      content: [
+        {
+          type: "bullets",
+          items: [
+            "Brainstorms ideas.",
+            "Innovates new approaches.",
+            "Generates solutions to problems."
+          ]
+        }
+      ]
+    },
+
+    {
+      id: "tester",
+      title: "Tester: Provides Evaluation",
+      content: [
+        {
+          type: "bullets",
+          items: [
+            "Asks essential questions.",
+            "Warns of risks.",
+            "Protects people from avoidable mistakes.",
+            "Checks practicality, safety, and logistics."
+          ]
+        }
+      ]
+    },
+
+    {
+      id: "working-together",
+      title: "How the Roles Work Together",
+      content: [
+        {
+          type: "text",
+          text:
+            "The Inventor contributes ideas. The Unifier creates emotional safety that encourages people to share ideas. The Tester identifies hazards and practical concerns."
+        },
+        {
+          type: "text",
+          text:
+            "The Unifier discovers talents. The Facilitator matches tasks to talent. The Recorder documents commitments and assignments. Together these roles support accountability, participation, and satisfaction."
+        }
+      ]
+    }
+  ],
+
+  assessments: [
+    {
+      id: "true-false",
+      type: "trueFalse",
+      questions: [
+        {
+          question:
+            "A facilitator will exclude people who think differently.",
+          correctAnswer: false
+        },
+        {
+          question:
+            "A recorder will seek to embarrass group members who do not keep their commitments.",
+          correctAnswer: false
+        },
+        {
+          question:
+            "The unifier placates difficult group members.",
+          correctAnswer: false
+        },
+        {
+          question:
+            "The inventor dominates the conversation.",
+          correctAnswer: false
+        },
+        {
+          question:
+            "The tester attacks people who come up with dangerous ideas.",
+          correctAnswer: false
+        },
+        {
+          question:
+            "People naturally fit into one role and should not cross into others' roles.",
+          correctAnswer: false
+        },
+        {
+          question:
+            "Groups work best when all members function in all five roles.",
+          correctAnswer: true
+        }
+      ]
+    },
+
+    {
+      id: "drag-drop",
+      type: "categorization",
+      title: "Match Statements to Roles",
+
+      categories: [
+        "Facilitator",
+        "Recorder",
+        "Unifier",
+        "Inventor",
+        "Tester"
+      ],
+
+      items: [
+        {
+          text:
+            "We should ask Alice to do the graphics because that is her talent.",
+          category: "Facilitator"
+        },
+        {
+          text:
+            "We need to get back on topic.",
+          category: "Facilitator"
+        },
+        {
+          text:
+            "Last week, we said that Alice was going to do the graphics.",
+          category: "Recorder"
+        },
+        {
+          text:
+            "The city gave us a 5-day deadline.",
+          category: "Recorder"
+        },
+        {
+          text:
+            "Thank you, Stan for speaking up.",
+          category: "Unifier"
+        },
+        {
+          text:
+            "Burt, you did a great job on the presentation.",
+          category: "Unifier"
+        },
+        {
+          text:
+            "What if we tried...",
+          category: "Inventor"
+        },
+        {
+          text:
+            "This might sound crazy, but what if...",
+          category: "Inventor"
+        },
+        {
+          text:
+            "What if it rains?",
+          category: "Tester"
+        },
+        {
+          text:
+            "Before we decide, let's figure out how much it would cost.",
+          category: "Tester"
+        }
+      ]
+    },
+
+    {
+      id: "multiple-choice",
+      type: "multipleChoice",
+
+      question: "The effective tester...",
+
+      answers: [
+        "Honestly voices concerns.",
+        "Points out everyone's failings.",
+        "Can't get along with other group members.",
+        "Refuses to compromise."
+      ],
+
+      correctAnswer: 0,
+
+      feedback: {
+        correct:
+          "Yes! Wise group members listen carefully to divergent viewpoints.",
+        incorrect:
+          "The most effective tester combines evaluation and concern for people while identifying risks and missing information."
+      }
+    },
+
+    {
+      id: "short-answer",
+      type: "fillBlank",
+
+      question:
+        "The ______ documents discussions, assignments, decisions, and deadlines.",
+
+      answers: ["Recorder"]
+    },
+
+    {
+      id: "multiple-answer",
+      type: "multiSelect",
+
+      question:
+        "Which three roles work together to make sure everyone helps the group meet its goals?",
+
+      options: [
+        "Facilitator",
+        "Recorder",
+        "Unifier",
+        "Inventor",
+        "Tester"
+      ],
+
+      correctAnswers: [0, 1, 2],
+
+      feedback: {
+        correct:
+          "Correct. The Facilitator matches task to talent, the Recorder documents commitments, and the Unifier helps everyone feel included.",
+        incorrect:
+          "Although Inventors and Testers contribute important functions, these three roles specifically help ensure broad participation."
+      }
+    },
+
+    {
+      id: "matching",
+      type: "matching",
+
+      pairs: [
+        {
+          left: "Facilitator",
+          right: "Bird's-Eye View"
+        },
+        {
+          left: "Recorder",
+          right: "Remembering Discussion"
+        },
+        {
+          left: "Unifier",
+          right: "Social Bonding"
+        },
+        {
+          left: "Inventor",
+          right: "Creatively Contributing"
+        },
+        {
+          left: "Tester",
+          right: "Quality Control"
+        }
+      ]
+    }
+  ]
+};
+
+// Export JSON
+const courseJson = JSON.stringify(groupFruitCourse, null, 2);
+
+console.log(courseJson);
