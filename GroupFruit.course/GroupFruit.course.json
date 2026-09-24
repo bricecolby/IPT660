@@ -1,327 +1,167 @@
-const groupFruitCourse = {
-  id: "groupfruit-theory",
-  title: "GroupFruit Theory: The Five Essential Group Roles",
-  audience: [
-    "Teachers seeking to improve group activities",
-    "Supervisors seeking to improve team effectiveness"
+{
+  "moduleId": "groupfruit-five-roles",
+  "title": "GroupFruit Theory: The Five Essential Group Roles",
+  "learningOutcomes": [
+    "Learners will be able to identify the five essential roles in GroupFruit Theory.",
+    "Learners will be able to describe the primary function of the Facilitator, Recorder, Unifier, Inventor, and Tester.",
+    "Learners will be able to explain how the five roles work together in an interdependent manner.",
+    "Learners will be able to recognize examples of role-specific behaviors in group discussions.",
+    "Learners will be able to apply GroupFruit Theory to improve collaboration within teams and group activities."
   ],
-
-  learningObjectives: [
-    "Identify the five essential group roles.",
-    "Explain the primary function of each role.",
-    "Describe how the roles work together.",
-    "Recognize that all group members should fluidly function in all five roles as circumstances require."
-  ],
-
-  modules: [
+  "sections": [
     {
-      id: "introduction",
-      title: "Introduction to GroupFruit Theory",
-      content: [
-        {
-          type: "text",
-          text:
-            "GroupFruit Theory teaches that successful groups require five essential functions: Facilitator, Recorder, Unifier, Inventor, and Tester. Although people may have strengths in particular roles, effective group members move fluidly among all five roles as situations require."
-        }
-      ]
+      "sectionId": "s1",
+      "heading": "Introduction to GroupFruit Theory",
+      "body": "GroupFruit Theory proposes that effective groups rely on five essential roles: Facilitator, Recorder, Unifier, Inventor, and Tester. These roles are not assigned to specific people. Instead, every group member should seek to function in all five roles as the needs of the moment change. The strongest groups are those in which members fluidly move between the roles to help the group succeed."
     },
-
     {
-      id: "facilitator",
-      title: "Facilitator: Provides Coordination",
-      content: [
-        {
-          type: "bullets",
-          items: [
-            "Values all group members.",
-            "Matches tasks to individual talents.",
-            "Filters distractions and keeps discussion on agenda.",
-            "Helps groups make timely decisions."
-          ]
-        }
-      ]
+      "sectionId": "s2",
+      "heading": "Facilitator: Providing Coordination",
+      "body": "The Facilitator provides coordination. Effective facilitators value all group members, match tasks to talents, filter distractions, maintain focus on agenda items, and guide the group toward timely decisions. They help ensure that the group's energy is directed toward accomplishing important goals."
     },
-
     {
-      id: "recorder",
-      title: "Recorder: Provides Memory",
-      content: [
-        {
-          type: "bullets",
-          items: [
-            "Documents discussions, assignments, decisions, and deadlines.",
-            "Communicates important information.",
-            "Keeps absent members informed.",
-            "Maintains updates and records."
-          ]
-        }
-      ]
+      "sectionId": "s3",
+      "heading": "Recorder: Providing Memory",
+      "body": "The Recorder provides memory for the group. Recorders document discussions, decisions, assignments, and deadlines. They communicate important information to group members, especially those who may have been absent, and provide ongoing updates to help the group stay informed and accountable."
     },
-
     {
-      id: "unifier",
-      title: "Unifier: Provides Cohesion",
-      content: [
-        {
-          type: "bullets",
-          items: [
-            "Welcomes people.",
-            "Recognizes talents and contributions.",
-            "Invites participation.",
-            "Expresses appreciation."
-          ]
-        }
-      ]
+      "sectionId": "s4",
+      "heading": "Unifier: Providing Cohesion",
+      "body": "The Unifier provides cohesion within the group. Effective unifiers welcome participation, recognize individual talents, invite contributions, and express appreciation. They help build trust and belonging so that group members feel valued and willing to contribute."
     },
-
     {
-      id: "inventor",
-      title: "Inventor: Provides Creativity",
-      content: [
-        {
-          type: "bullets",
-          items: [
-            "Brainstorms ideas.",
-            "Innovates new approaches.",
-            "Generates solutions to problems."
-          ]
-        }
-      ]
+      "sectionId": "s5",
+      "heading": "Inventor: Providing Creativity",
+      "body": "The Inventor provides creativity. Inventors brainstorm possibilities, generate innovative ideas, and help solve problems through creative thinking. They expand the group's options by proposing new approaches and encouraging exploration."
     },
-
     {
-      id: "tester",
-      title: "Tester: Provides Evaluation",
-      content: [
-        {
-          type: "bullets",
-          items: [
-            "Asks essential questions.",
-            "Warns of risks.",
-            "Protects people from avoidable mistakes.",
-            "Checks practicality, safety, and logistics."
-          ]
-        }
-      ]
+      "sectionId": "s6",
+      "heading": "Tester: Providing Evaluation",
+      "body": "The Tester provides evaluation. Testers ask essential questions about who, what, when, where, and why. They identify risks, warn of potential problems, consider costs and logistics, and help protect people from unintended consequences. Effective testers improve ideas rather than attack people."
     },
-
     {
-      id: "working-together",
-      title: "How the Roles Work Together",
-      content: [
-        {
-          type: "text",
-          text:
-            "The Inventor contributes ideas. The Unifier creates emotional safety that encourages people to share ideas. The Tester identifies hazards and practical concerns."
-        },
-        {
-          type: "text",
-          text:
-            "The Unifier discovers talents. The Facilitator matches tasks to talent. The Recorder documents commitments and assignments. Together these roles support accountability, participation, and satisfaction."
-        }
-      ]
+      "sectionId": "s7",
+      "heading": "How the Roles Work Together",
+      "body": "The five roles work together in an interdependent manner. The Inventor contributes ideas while the Tester evaluates risks and practical concerns. The Unifier creates emotional safety inside the group while the Tester promotes safety for those affected by the group's work. The Unifier identifies talents, the Facilitator matches tasks to those talents, and the Recorder documents assignments and commitments. Together, the roles balance creativity, accountability, participation, and safety."
     }
   ],
-
-  assessments: [
+  "assignments": [
     {
-      id: "true-false",
-      type: "trueFalse",
-      questions: [
-        {
-          question:
-            "A facilitator will exclude people who think differently.",
-          correctAnswer: false
-        },
-        {
-          question:
-            "A recorder will seek to embarrass group members who do not keep their commitments.",
-          correctAnswer: false
-        },
-        {
-          question:
-            "The unifier placates difficult group members.",
-          correctAnswer: false
-        },
-        {
-          question:
-            "The inventor dominates the conversation.",
-          correctAnswer: false
-        },
-        {
-          question:
-            "The tester attacks people who come up with dangerous ideas.",
-          correctAnswer: false
-        },
-        {
-          question:
-            "People naturally fit into one role and should not cross into others' roles.",
-          correctAnswer: false
-        },
-        {
-          question:
-            "Groups work best when all members function in all five roles.",
-          correctAnswer: true
-        }
-      ]
+      "assignmentId": "a1",
+      "title": "Analyze a Team Interaction",
+      "instructions": "Observe a team meeting, committee discussion, classroom group, or workplace project. Identify at least one example of each GroupFruit role being demonstrated. Write one paragraph explaining how the Facilitator, Recorder, Unifier, Inventor, and Tester contributed to the group's effectiveness. Conclude by describing which role was most visible and which role was least visible."
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "q1",
+      "prompt": "Groups work best when all members function in all five roles.",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "feedback": {
+        "correct": "Correct. GroupFruit Theory teaches that group members should move fluidly between all five roles as needed.",
+        "incorrect": "Not quite. GroupFruit Theory teaches that all members should contribute through all five roles when appropriate."
+      }
     },
-
     {
-      id: "drag-drop",
-      type: "categorization",
-      title: "Match Statements to Roles",
-
-      categories: [
+      "questionId": "q2",
+      "prompt": "A facilitator will exclude people who think differently.",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "feedback": {
+        "correct": "Correct. Effective facilitators value all members and seek to benefit from differing perspectives.",
+        "incorrect": "Incorrect. Facilitators should encourage participation from people with different viewpoints."
+      }
+    },
+    {
+      "questionId": "q3",
+      "prompt": "The effective tester...",
+      "options": [
+        "Honestly voices concerns",
+        "Points out everyone's failings",
+        "Cannot get along with other group members",
+        "Refuses to compromise"
+      ],
+      "correctAnswer": "Honestly voices concerns",
+      "feedback": {
+        "correct": "Yes! Wise group members listen carefully to the divergent voice that identifies risks and missing information.",
+        "incorrect": "The most effective tester simultaneously utilizes the unifier role while identifying hazards, inconsistencies, and missing information."
+      }
+    },
+    {
+      "questionId": "q4",
+      "prompt": "The ______ documents discussions, assignments, decisions, and deadlines.",
+      "options": [
         "Facilitator",
         "Recorder",
-        "Unifier",
         "Inventor",
         "Tester"
       ],
-
-      items: [
-        {
-          text:
-            "We should ask Alice to do the graphics because that is her talent.",
-          category: "Facilitator"
-        },
-        {
-          text:
-            "We need to get back on topic.",
-          category: "Facilitator"
-        },
-        {
-          text:
-            "Last week, we said that Alice was going to do the graphics.",
-          category: "Recorder"
-        },
-        {
-          text:
-            "The city gave us a 5-day deadline.",
-          category: "Recorder"
-        },
-        {
-          text:
-            "Thank you, Stan for speaking up.",
-          category: "Unifier"
-        },
-        {
-          text:
-            "Burt, you did a great job on the presentation.",
-          category: "Unifier"
-        },
-        {
-          text:
-            "What if we tried...",
-          category: "Inventor"
-        },
-        {
-          text:
-            "This might sound crazy, but what if...",
-          category: "Inventor"
-        },
-        {
-          text:
-            "What if it rains?",
-          category: "Tester"
-        },
-        {
-          text:
-            "Before we decide, let's figure out how much it would cost.",
-          category: "Tester"
-        }
-      ]
-    },
-
-    {
-      id: "multiple-choice",
-      type: "multipleChoice",
-
-      question: "The effective tester...",
-
-      answers: [
-        "Honestly voices concerns.",
-        "Points out everyone's failings.",
-        "Can't get along with other group members.",
-        "Refuses to compromise."
-      ],
-
-      correctAnswer: 0,
-
-      feedback: {
-        correct:
-          "Yes! Wise group members listen carefully to divergent viewpoints.",
-        incorrect:
-          "The most effective tester combines evaluation and concern for people while identifying risks and missing information."
+      "correctAnswer": "Recorder",
+      "feedback": {
+        "correct": "Correct. The Recorder provides memory for the group.",
+        "incorrect": "The Recorder is responsible for documenting discussions, decisions, assignments, and deadlines."
       }
     },
-
     {
-      id: "short-answer",
-      type: "fillBlank",
-
-      question:
-        "The ______ documents discussions, assignments, decisions, and deadlines.",
-
-      answers: ["Recorder"]
+      "questionId": "q5",
+      "prompt": "Which three roles work together to make sure everyone helps the group meet its goals?",
+      "options": [
+        "Facilitator, Recorder, Unifier",
+        "Facilitator, Inventor, Tester",
+        "Recorder, Inventor, Tester",
+        "Unifier, Inventor, Tester"
+      ],
+      "correctAnswer": "Facilitator, Recorder, Unifier",
+      "feedback": {
+        "correct": "Yes. The Facilitator matches tasks to talent, the Recorder documents commitments, and the Unifier promotes participation and belonging.",
+        "incorrect": "Although every role contributes to success, these three roles work especially closely to ensure broad participation and accountability."
+      }
     },
-
     {
-      id: "multiple-answer",
-      type: "multiSelect",
-
-      question:
-        "Which three roles work together to make sure everyone helps the group meet its goals?",
-
-      options: [
+      "questionId": "q6",
+      "prompt": "Which role is speaking? 'We need to get back on topic.'",
+      "options": [
         "Facilitator",
         "Recorder",
         "Unifier",
-        "Inventor",
-        "Tester"
+        "Inventor"
       ],
-
-      correctAnswers: [0, 1, 2],
-
-      feedback: {
-        correct:
-          "Correct. The Facilitator matches task to talent, the Recorder documents commitments, and the Unifier helps everyone feel included.",
-        incorrect:
-          "Although Inventors and Testers contribute important functions, these three roles specifically help ensure broad participation."
+      "correctAnswer": "Facilitator",
+      "feedback": {
+        "correct": "Correct. Facilitators help the group stay focused on its agenda.",
+        "incorrect": "This statement reflects the Facilitator's responsibility to filter distractions and maintain focus."
       }
     },
-
     {
-      id: "matching",
-      type: "matching",
-
-      pairs: [
-        {
-          left: "Facilitator",
-          right: "Bird's-Eye View"
-        },
-        {
-          left: "Recorder",
-          right: "Remembering Discussion"
-        },
-        {
-          left: "Unifier",
-          right: "Social Bonding"
-        },
-        {
-          left: "Inventor",
-          right: "Creatively Contributing"
-        },
-        {
-          left: "Tester",
-          right: "Quality Control"
-        }
-      ]
+      "questionId": "q7",
+      "prompt": "Which role is speaking? 'Thank you, Stan, for speaking up. Let's listen to Stan.'",
+      "options": [
+        "Recorder",
+        "Tester",
+        "Inventor",
+        "Unifier"
+      ],
+      "correctAnswer": "Unifier",
+      "feedback": {
+        "correct": "Correct. The Unifier encourages participation and helps members feel valued.",
+        "incorrect": "This is an example of the Unifier role strengthening cohesion and inclusion."
+      }
+    },
+    {
+      "questionId": "q8",
+      "prompt": "Which role is speaking? 'What if it rains?'",
+      "options": [
+        "Inventor",
+        "Tester",
+        "Recorder",
+        "Facilitator"
+      ],
+      "correctAnswer": "Tester",
+      "feedback": {
+        "correct": "Correct. The Tester identifies risks and practical concerns.",
+        "incorrect": "This question reflects the Tester's responsibility to evaluate plans and anticipate problems."
+      }
     }
   ]
-};
-
-// Export JSON
-const courseJson = JSON.stringify(groupFruitCourse, null, 2);
-
-console.log(courseJson);
+}
