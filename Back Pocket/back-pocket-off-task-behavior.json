@@ -1,0 +1,130 @@
+{
+  "moduleId": "m01-back-pocket-off-task-behavior",
+  "title": "Back Pocket: Responding to Off-Task Classroom Behavior",
+  "learningOutcomes": [
+    "Learners will be able to identify the type of off-task classroom behavior they are experiencing.",
+    "Learners will be able to select an appropriate, low-disruption strategy for responding to off-task behavior.",
+    "Learners will be able to apply one suggested strategy and record a brief private reflection about the result."
+  ],
+  "sections": [
+    {
+      "sectionId": "s1",
+      "heading": "Quick Tip 1: Pause and Identify the Need",
+      "body": "Before reacting, take one quiet moment to notice what is happening. Ask yourself: Is one student off task, or is the whole group drifting? Is the task unclear, too difficult, finished early, or competing with a distraction? Off-task behavior is information, not automatically defiance. **Try this:** Name the pattern in neutral language: *Several students have stopped writing and are looking around.* Then choose the smallest response that fits what you observed. If directions seem unclear, restate the next step. If one student is distracted, use a private redirection. Pausing for a few seconds can keep a manageable situation from becoming a public confrontation."
+    },
+    {
+      "sectionId": "s2",
+      "heading": "Quick Tip 2: Redirect Quietly and Specifically",
+      "body": "Start with a response that protects the student's dignity and causes as little disruption as possible. Move closer, make brief eye contact, point to the directions, or quietly use the student's name. If words are needed, describe the next observable action instead of criticizing the student: *Please open your document and write the first sentence.* Avoid a long public correction, sarcasm, or a debate in front of classmates. **Try this:** Keep the redirection calm, private, and short, then give the student a moment to respond. A specific direction makes it easier for the student to rejoin the task without becoming the center of attention."
+    },
+    {
+      "sectionId": "s3",
+      "heading": "Quick Tip 3: Offer a Clear Choice and Next Step",
+      "body": "When a student does not respond to the first redirection, offer two acceptable ways forward. Both choices should support the learning goal and be options you can actually honor. For example: *You can begin with questions one through three, or you can work through the first question with me.* Keep the tone matter-of-fact rather than threatening. **Try this:** State the two choices, allow a short pause, and acknowledge the student's choice without turning it into a negotiation. A manageable next step can reduce the pressure a student feels while keeping the expectation clear."
+    },
+    {
+      "sectionId": "s4",
+      "heading": "Quick Tip 4: Reset and Know When to Seek Support",
+      "body": "A strategy may not work immediately, and that does not mean you have failed. If the behavior continues, briefly reset the direction, reduce the task to the next manageable action, or give the student space when appropriate. If the situation involves safety, repeated escalation, or a need beyond your role, follow the school's procedures and contact your mentor teacher or another designated support person. **Try this:** Afterward, privately note what happened, what you tried, and what you may adjust next time. The goal is not to handle every situation alone; it is to respond thoughtfully and recognize when support is the best next step."
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "a1",
+      "title": "Try It & Reflect",
+      "instructions": "Choose one strategy from this module to try during a classroom situation involving off-task behavior. Afterward, create a brief private note attached to the tip you used. Record: (1) what was happening, without including students' names or identifying details; (2) which strategy you tried; (3) what happened after you tried it; and (4) one thing you would repeat or adjust next time. Keep the reflection to 75–150 words. This note is for your personal learning record and is not reported to faculty, supervisors, administrators, or other users."
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "q1",
+      "prompt": "During independent work, several students stop writing and begin looking around the room. What is the best first step?",
+      "options": [
+        "Assume the students are being deliberately defiant and issue a consequence",
+        "Pause and check whether the task, directions, or next step may be unclear",
+        "Publicly ask the class why no one is working",
+        "Ignore the behavior for the rest of the activity"
+      ],
+      "correctAnswer": "Pause and check whether the task, directions, or next step may be unclear",
+      "feedback": {
+        "correct": "Right — when several students drift at once, first check for a shared cause such as unclear directions or an uncertain next step. Review Quick Tip 1 for the pause-and-identify approach.",
+        "incorrect": "Start by gathering information rather than assuming intent. When several students drift at once, the task or directions may need clarification. Review Quick Tip 1."
+      }
+    },
+    {
+      "questionId": "q2",
+      "prompt": "One student begins talking to a neighbor while you are giving directions. Which response is the best low-disruption redirection?",
+      "options": [
+        "Stop the lesson and lecture the student about respect",
+        "Move closer and quietly ask the student to return attention to the directions",
+        "Ask the student's neighbor to correct the behavior",
+        "Immediately remove the student from the classroom"
+      ],
+      "correctAnswer": "Move closer and quietly ask the student to return attention to the directions",
+      "feedback": {
+        "correct": "Exactly — proximity and a brief private prompt can redirect the student while protecting dignity and preserving the lesson. Review Quick Tip 2 for more examples.",
+        "incorrect": "Use the smallest response likely to work. A quiet proximity cue or private prompt redirects the student without interrupting the whole class. Review Quick Tip 2."
+      }
+    },
+    {
+      "questionId": "q3",
+      "prompt": "After a quiet redirection, a student says, 'I don't know how to start,' and still does not begin. What is the most helpful next response?",
+      "options": [
+        "Tell the student to figure it out because everyone received the same directions",
+        "Repeat the original direction more loudly",
+        "Offer two acceptable starting options, such as trying the first item alone or beginning it with you",
+        "Excuse the student from the task without discussing it"
+      ],
+      "correctAnswer": "Offer two acceptable starting options, such as trying the first item alone or beginning it with you",
+      "feedback": {
+        "correct": "Yes — two manageable choices preserve the expectation while helping the student take a clear next step. Review Quick Tip 3 for guidance on offering choices.",
+        "incorrect": "The student's response suggests that the barrier may be getting started. Offer two acceptable, manageable ways to begin while keeping the expectation clear. Review Quick Tip 3."
+      }
+    },
+    {
+      "questionId": "q4",
+      "prompt": "A student's behavior continues to escalate after calm redirections and now creates a safety concern. What should a student-teacher intern do?",
+      "options": [
+        "Handle the situation alone to prove they can manage a classroom",
+        "Continue repeating the same redirection regardless of the escalation",
+        "Follow the school's procedures and contact the designated mentor or support person",
+        "Post a description of the incident online to ask for advice"
+      ],
+      "correctAnswer": "Follow the school's procedures and contact the designated mentor or support person",
+      "feedback": {
+        "correct": "Correct — safety and role boundaries come first. Seeking designated support is an appropriate professional response, not a failure. Review Quick Tip 4.",
+        "incorrect": "When safety is involved, follow the school's procedures and involve the designated support person. Student teachers are not expected to manage escalating situations alone. Review Quick Tip 4."
+      }
+    },
+    {
+      "questionId": "q5",
+      "prompt": "Which direction gives a student the clearest, most observable next action?",
+      "options": [
+        "Make better choices",
+        "Fix your attitude",
+        "Pay attention",
+        "Open your document and write the first sentence"
+      ],
+      "correctAnswer": "Open your document and write the first sentence",
+      "feedback": {
+        "correct": "Right — the student can see exactly what action to take. Specific, observable directions are easier to follow than general judgments. Review Quick Tip 2.",
+        "incorrect": "A useful redirection names an action the student can immediately perform. 'Open your document and write the first sentence' is specific and observable. Review Quick Tip 2."
+      }
+    },
+    {
+      "questionId": "q6",
+      "prompt": "Which reflection would be most useful after trying a classroom strategy?",
+      "options": [
+        "That class was terrible, and nothing works",
+        "The student was the problem",
+        "I used a quiet proximity cue during independent work; the student restarted after about a minute, so I would try the same cue earlier next time",
+        "I should never need help with classroom management"
+      ],
+      "correctAnswer": "I used a quiet proximity cue during independent work; the student restarted after about a minute, so I would try the same cue earlier next time",
+      "feedback": {
+        "correct": "Exactly — this reflection identifies the context, strategy, result, and a possible adjustment without labeling the student. That makes it useful for future decisions.",
+        "incorrect": "A useful reflection records the context, the strategy tried, the result, and one possible adjustment. It focuses on observable events rather than blaming the student or yourself."
+      }
+    }
+  ]
+}
