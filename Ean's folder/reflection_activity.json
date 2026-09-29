@@ -1,0 +1,41 @@
+{
+  "activity": {
+    "id": "post-mock-interview-reflection",
+    "title": "Reflection After the Mock Interview",
+    "type": "written_reflection",
+    "instructions": "After completing the mock interview questions, respond to the reflection prompts. The goal is to notice what felt strong, what felt difficult, and what you want to practice next.",
+    "reflection_prompts": [
+      {
+        "id": "reflection-1",
+        "question": "What went well during your mock interview practice?",
+        "purpose": "Help learners identify strengths and build confidence."
+      },
+      {
+        "id": "reflection-2",
+        "question": "What is one part of your interview responses that could be improved?",
+        "purpose": "Help learners choose a specific improvement area."
+      },
+      {
+        "id": "reflection-3",
+        "question": "Which interview question was most difficult to answer, and why?",
+        "purpose": "Help learners identify question types that need more practice."
+      },
+      {
+        "id": "reflection-4",
+        "question": "Which part of the interview felt most comfortable?",
+        "purpose": "Help learners recognize existing communication strengths."
+      },
+      {
+        "id": "reflection-5",
+        "question": "Which part felt uncomfortable or unfamiliar?",
+        "purpose": "Help learners identify cultural, language, confidence, or content-related challenges."
+      },
+      {
+        "id": "reflection-6",
+        "question": "What is one action you will take before your next real interview?",
+        "purpose": "Help learners create a realistic next step."
+      }
+    ],
+    "completion_message": "You have completed the mock interview reflection. Review your answers and choose one skill to practice again before your next interview."
+  }
+}

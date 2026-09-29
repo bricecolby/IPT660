@@ -1,0 +1,82 @@
+{
+  "feedback_rubric": {
+    "id": "mock-interview-self-assessment-rubric",
+    "title": "Mock Interview Response Checklist",
+    "purpose": "Help learners evaluate their own interview responses without requiring automated AI feedback.",
+    "rating_scale": [
+      {
+        "value": 3,
+        "label": "Strong",
+        "description": "The response clearly meets this criterion."
+      },
+      {
+        "value": 2,
+        "label": "Developing",
+        "description": "The response partly meets this criterion but could be clearer or more specific."
+      },
+      {
+        "value": 1,
+        "label": "Needs Practice",
+        "description": "The response does not yet meet this criterion."
+      }
+    ],
+    "checklist_items": [
+      {
+        "id": "criterion-1",
+        "label": "The answer is organized.",
+        "description": "The response has a clear beginning, middle, and ending."
+      },
+      {
+        "id": "criterion-2",
+        "label": "The answer stays on topic.",
+        "description": "The response directly answers the question asked by the interviewer."
+      },
+      {
+        "id": "criterion-3",
+        "label": "The answer includes a specific example.",
+        "description": "The response includes a real class, work, volunteer, project, or leadership experience."
+      },
+      {
+        "id": "criterion-4",
+        "label": "The answer explains the learner's role.",
+        "description": "The response makes it clear what the learner personally did."
+      },
+      {
+        "id": "criterion-5",
+        "label": "The answer includes a result or lesson learned.",
+        "description": "The response explains the outcome, impact, or learning from the situation."
+      },
+      {
+        "id": "criterion-6",
+        "label": "The tone is professional.",
+        "description": "The response uses respectful language and avoids oversharing unrelated personal details."
+      },
+      {
+        "id": "criterion-7",
+        "label": "The answer connects to the job or employer.",
+        "description": "The response helps the interviewer understand why the learner is a good fit for the role."
+      }
+    ],
+    "feedback_messages": [
+      {
+        "score_range": "18-21",
+        "message": "Your response is strong. Continue practicing so your answer feels natural and confident."
+      },
+      {
+        "score_range": "13-17",
+        "message": "Your response is developing well. Choose one area to strengthen, such as adding a specific example or explaining the result more clearly."
+      },
+      {
+        "score_range": "7-12",
+        "message": "Your response needs more practice. Try using the STAR method and focus on one clear example."
+      }
+    ],
+    "best_practices": [
+      "Practice out loud after writing your response.",
+      "Keep most interview answers between one and two minutes.",
+      "Use examples from school, internships, jobs, volunteering, student organizations, or class projects.",
+      "Do not memorize a script word for word. Practice key points so the answer sounds natural.",
+      "For visa or sponsorship questions, answer clearly and confirm details with a trusted campus or legal resource."
+    ]
+  }
+}

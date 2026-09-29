@@ -1,0 +1,123 @@
+{
+  "activity": {
+    "id": "mock-interview-practice",
+    "title": "Mock Interview Practice",
+    "type": "scenario_based_practice",
+    "instructions": "Read each interview question and type a response as if you were speaking to an employer. After each response, use the checklist to review your answer and identify one improvement.",
+    "learner_input": {
+      "format": "textarea",
+      "placeholder": "Type your interview response here.",
+      "minimum_recommended_sentences": 4
+    },
+    "scenarios": [
+      {
+        "id": "scenario-1",
+        "title": "Opening Introduction",
+        "context": "You are interviewing for an entry-level position related to your major. The interviewer begins with a common opening question.",
+        "question": "Tell me about yourself.",
+        "skill_focus": [
+          "Self introduction",
+          "Professional summary",
+          "Connection to the role"
+        ],
+        "response_tips": [
+          "Keep the answer focused and organized.",
+          "Mention your academic background and one or two relevant experiences.",
+          "End by connecting your interest to the position."
+        ],
+        "sample_strong_elements": [
+          "Brief background",
+          "Relevant skill or experience",
+          "Clear interest in the employer or role"
+        ]
+      },
+      {
+        "id": "scenario-2",
+        "title": "Behavioral Question",
+        "context": "The employer wants to understand how you handle challenges in a team or academic setting.",
+        "question": "Tell me about a time you worked through a challenge with a team.",
+        "skill_focus": [
+          "STAR method",
+          "Teamwork",
+          "Problem solving"
+        ],
+        "response_tips": [
+          "Use the Situation, Task, Action, Result structure.",
+          "Focus on what you personally contributed.",
+          "Include what changed or what you learned."
+        ],
+        "sample_strong_elements": [
+          "Specific team situation",
+          "Clear action taken by the student",
+          "Positive result or lesson learned"
+        ]
+      },
+      {
+        "id": "scenario-3",
+        "title": "Strengths",
+        "context": "The employer asks a direct question about what you would bring to the workplace.",
+        "question": "What is one strength you would bring to this role?",
+        "skill_focus": [
+          "Self awareness",
+          "Evidence-based answer",
+          "Role alignment"
+        ],
+        "response_tips": [
+          "Name one specific strength.",
+          "Give an example that proves the strength.",
+          "Connect the strength to the position."
+        ],
+        "sample_strong_elements": [
+          "Specific strength",
+          "Concrete example",
+          "Connection to job responsibilities"
+        ]
+      },
+      {
+        "id": "scenario-4",
+        "title": "Weaknesses",
+        "context": "The employer asks a question that can feel uncomfortable but is common in interviews.",
+        "question": "What is one area where you are currently working to improve?",
+        "skill_focus": [
+          "Growth mindset",
+          "Professional honesty",
+          "Improvement planning"
+        ],
+        "response_tips": [
+          "Choose a real but manageable improvement area.",
+          "Avoid naming a weakness that is essential to the role.",
+          "Explain the steps you are taking to improve."
+        ],
+        "sample_strong_elements": [
+          "Honest improvement area",
+          "Specific improvement strategy",
+          "Positive professional tone"
+        ]
+      },
+      {
+        "id": "scenario-5",
+        "title": "Work Authorization Conversation",
+        "context": "The employer asks about your ability to work in the United States. This module does not provide legal advice, but it helps you practice a clear and professional response.",
+        "question": "Will you now or in the future require sponsorship for employment authorization?",
+        "skill_focus": [
+          "Professional communication",
+          "Clarity",
+          "Sponsorship conversation"
+        ],
+        "response_tips": [
+          "Answer truthfully based on your current situation.",
+          "Keep the response concise and professional.",
+          "Avoid guessing about legal details if you are unsure.",
+          "Consult your campus international student office for accurate guidance about your visa status."
+        ],
+        "sample_strong_elements": [
+          "Clear answer",
+          "Professional tone",
+          "No legal overclaiming",
+          "Willingness to provide documentation through appropriate employer processes"
+        ],
+        "important_note": "Visa and work authorization rules can change. Students should confirm their specific situation with their campus international student office or a qualified immigration professional."
+      }
+    ]
+  }
+}
