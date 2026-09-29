@@ -1,0 +1,74 @@
+{
+  "moduleId": "m01-smart-goals",
+  "title": "From Vague to SMART: Rewriting Your Session Goal",
+  "learningOutcomes": [
+    "Learners will be able to identify which SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound) a vague or unmeasurable goal is missing.",
+    "Learners will be able to rewrite a vague or unmeasurable goal as a SMART goal."
+  ],
+  "sections": [
+    {
+      "sectionId": "s1",
+      "heading": "Scenario: A Goal That Sounds Good but Goes Nowhere",
+      "body": "Your AI facilitator flagged a goal from your last session as vague or unmeasurable. Here is a moment like the one it noticed.\n\n**Session excerpt**\n\n> **Mentor:** So what do you want to work on before we meet again?\n>\n> **Priya (mentee):** I want to get better at public speaking.\n>\n> **Mentor:** Great. How will we know you've gotten better?\n>\n> **Priya:** I guess I'll just feel more confident?\n>\n> **Mentor:** Okay, let's check in on it next time.\n\nPriya's goal is a good direction, but it is hard to act on. It doesn't say what she will do, how progress will be measured, or when it should be done. At the next session, neither Priya nor her mentor will be able to say whether she met it.\n\nAsk yourself: what is missing from Priya's goal? Keep that question in mind as you look at your own goal."
+    },
+    {
+      "sectionId": "s2",
+      "heading": "Applying SMART to Your Own Goal",
+      "body": "You already know what SMART stands for from the pre-mentoring course. Now use it as a checklist. Take the goal from your session and ask one question per letter:\n\n- **Specific:** What exactly will I do? Name the action, not just the area. \"Get better at public speaking\" names an area. \"Present my project update at the team meeting\" names an action.\n- **Measurable:** How will I and my mentor know it happened? Use a number, a count, or a finished product you can point to.\n- **Achievable:** Can I realistically do this with the time and resources I have before the next session?\n- **Relevant:** Does this connect to my current track step or the larger goal I am working on with my mentor?\n- **Time-bound:** By when? Name a date or tie it to the next session.\n\n**Tip:** Vague goals usually fail on Specific and Measurable first. Fix those two, then add a deadline.\n\n**Example rewrite**\n\n- Vague: \"I want to get better at public speaking.\"\n- SMART: \"Before our next session on October 15, I will give a 5-minute project update at my team meeting and ask two teammates for one piece of feedback each.\"\n\nThe rewrite names the action (a 5-minute update), makes it measurable (one talk, two pieces of feedback), stays achievable (one meeting), is relevant to Priya's speaking goal, and has a deadline (October 15)."
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "a1",
+      "title": "Rewrite the Goal",
+      "instructions": "Read the session excerpt below.\n\n> **Mentor:** What would you like to focus on over the next two weeks?\n>\n> **Marcus (mentee):** I want to network more.\n>\n> **Mentor:** That's a good idea for your job search.\n>\n> **Marcus:** Yeah, I'll try to do it more often.\n\n1. List which SMART criteria Marcus's goal is missing, and explain why in one sentence each.\n2. Rewrite Marcus's goal as a SMART goal in one or two sentences.\n3. Label each part of your rewrite with the SMART criterion it meets (S, M, A, R, T).\n4. Apply the same steps to the goal the AI facilitator flagged from your own session, and bring your rewrite to your next session with your mentor."
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "q1",
+      "prompt": "In a session, a mentee tells their mentor: \"I'm going to work on my resume by next Friday.\" Which SMART criterion is this goal most clearly missing?",
+      "options": [
+        "Specific",
+        "Measurable",
+        "Relevant",
+        "Time-bound"
+      ],
+      "correctAnswer": "Measurable",
+      "feedback": {
+        "correct": "Correct. The goal has a deadline (next Friday) and a clear area (the resume), but \"work on\" gives no way to tell when it is done. A measurable version might be: \"By next Friday, I will update my resume with my two most recent projects and send it to my mentor for review.\"",
+        "incorrect": "Not quite. The goal already has a deadline (next Friday) and names a clear area (the resume). What is missing is a way to know when it is done. \"Work on\" is not measurable. Look for the criterion that answers \"How will we know it happened?\""
+      }
+    },
+    {
+      "questionId": "q2",
+      "prompt": "A mentee says: \"I want to learn more about data analysis.\" Their mentor asks them to make it SMART. Which rewrite is the best SMART goal?",
+      "options": [
+        "I want to really focus on learning data analysis this year.",
+        "I will complete modules 1 through 3 of the online SQL course and share one practice query with my mentor before our session on November 5.",
+        "I will become an expert in data analysis as soon as possible.",
+        "I will read about data analysis whenever I have free time."
+      ],
+      "correctAnswer": "I will complete modules 1 through 3 of the online SQL course and share one practice query with my mentor before our session on November 5.",
+      "feedback": {
+        "correct": "Correct. This rewrite names a specific action (modules 1 through 3), is measurable (three modules and one shared query), is achievable before the next session, is relevant to learning data analysis, and has a clear deadline (November 5).",
+        "incorrect": "Not quite. Check each option against all five SMART criteria. The best rewrite names a specific action, includes something you can count or show, is realistic, connects to the original goal, and has a deadline. Words like \"really focus,\" \"expert,\" and \"whenever\" are signs a goal is still vague."
+      }
+    },
+    {
+      "questionId": "q3",
+      "prompt": "After a session, the AI facilitator flags this mentee goal as vague: \"Be more organized at work.\" The mentee rewrites it as: \"Use a task list every day.\" Which SMART criterion does the rewrite still leave out?",
+      "options": [
+        "Specific",
+        "Achievable",
+        "Relevant",
+        "Time-bound"
+      ],
+      "correctAnswer": "Time-bound",
+      "feedback": {
+        "correct": "Correct. The rewrite is more specific (a task list) and measurable (every day), but it has no end point or check-in date. Adding \"for the next two weeks, and I will review it with my mentor at our next session\" makes it time-bound.",
+        "incorrect": "Not quite. The rewrite now names a specific action (a task list) and a way to measure it (every day), and it is realistic and relevant to being organized. Ask yourself: by when, or for how long? The missing piece is a deadline or check-in date."
+      }
+    }
+  ]
+}

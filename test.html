@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript terminology</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>JavaScript terminology</h1>
+<h2>Array vs. object</h2>
+<p id="information">Paragraph of information</p>
+<script>
+
+
+function classify(n) {
+  if (n < 0) {
+    return "negative";
+  } else if (n === 0) {
+    return "zero";
+  } else {
+    return "positive";
+  }
+}
+
+const result = classify(-3);   // store it
+console.log(result);           // "negative"
+
+//document.getElementById("information").textContent = classify(-4);
+
+
+function firstEven(numbers) {
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+      return numbers[i];
+    }
+  }
+  return null;
+}
+
+let x = 12;
+
+let total = 0
+total = total + 5
+total = total + 3
+
+document.getElementById("information").textContent = total;
+
+</script>
+</body>
+
+</html>
