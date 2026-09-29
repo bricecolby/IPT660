@@ -1,0 +1,121 @@
+{
+  "moduleId": "m01-email-signature",
+  "title": "Create an Email Signature in UOS Gmail",
+  "learningOutcomes": [
+    "Learners will be able to locate the Signature settings in their UOS Gmail account.",
+    "Learners will be able to create and save an email signature by following the provided instructions.",
+    "Learners will be able to verify that their email signature was saved successfully.",
+    "Learners will be able to identify the correct steps for creating and saving an email signature."
+  ],
+  "sections": [
+    {
+      "sectionId": "s1",
+      "heading": "Welcome to the Lesson",
+      "body": "In this lesson, you will create and save an email signature in your UOS Gmail account. You will review the setup steps, complete the task, verify your result, and answer a short quiz."
+    },
+    {
+      "sectionId": "s2",
+      "heading": "Open Gmail Settings",
+      "body": "Sign in to your UOS Gmail account. Select the gear icon in the upper-right corner, then select Settings. In the General settings, scroll down to the Signature section."
+    },
+    {
+      "sectionId": "s3",
+      "heading": "Create and Save Your Signature",
+      "body": "Enter the approved UOS signature information in the Signature section. After entering the signature, select Save Changes before leaving the Settings page. The training tool does not automatically access or change your Gmail account."
+    },
+    {
+      "sectionId": "s4",
+      "heading": "Verify Your Signature",
+      "body": "Open a new email message in Gmail and check that your signature appears. Return to the training module and complete the assignment checklist. Do not enter your email password or other private information into the training tool."
+    },
+    {
+      "sectionId": "s5",
+      "heading": "Current Session Progress",
+      "body": "The training tool displays your current-session progress, including sections opened, assignment checklist items completed, and quiz questions answered. This information is temporary and is not permanently stored."
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "a1",
+      "title": "Create and Verify Your UOS Gmail Signature",
+      "instructions": "Open your UOS Gmail account in a separate browser tab. Follow the lesson steps to open Settings, locate the Signature section, enter the approved UOS signature information, and save your changes. Open a new email message to verify that the signature appears. Return to the training module and confirm each completed step in the checklist. Do not enter your password or private account information into the training tool."
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "q1",
+      "prompt": "Which control should you select to begin finding Gmail Settings?",
+      "options": [
+        "The gear icon in the upper-right corner",
+        "The student records menu",
+        "The Google Drive menu",
+        "The GitHub menu"
+      ],
+      "correctAnswer": "The gear icon in the upper-right corner",
+      "feedback": {
+        "correct": "Correct. The gear icon opens Gmail Quick Settings.",
+        "incorrect": "Not quite. Begin by selecting the gear icon in the upper-right corner of Gmail."
+      }
+    },
+    {
+      "questionId": "q2",
+      "prompt": "Where can you find the Signature section?",
+      "options": [
+        "The General settings",
+        "The Calendar settings",
+        "The Contacts settings",
+        "The Google Drive settings"
+      ],
+      "correctAnswer": "The General settings",
+      "feedback": {
+        "correct": "Correct. The Signature section is located in Gmail General settings.",
+        "incorrect": "Review the lesson. After opening Settings, find the Signature section in General settings."
+      }
+    },
+    {
+      "questionId": "q3",
+      "prompt": "What should you do after entering your email signature?",
+      "options": [
+        "Select Save Changes",
+        "Close the browser immediately",
+        "Open the student information system",
+        "Delete the signature"
+      ],
+      "correctAnswer": "Select Save Changes",
+      "feedback": {
+        "correct": "Correct. Select Save Changes before leaving Gmail Settings.",
+        "incorrect": "Not quite. You must select Save Changes so Gmail keeps the signature."
+      }
+    },
+    {
+      "questionId": "q4",
+      "prompt": "How can you verify that your signature was saved?",
+      "options": [
+        "Open a new email message and check whether the signature appears",
+        "Log in to GitHub",
+        "Open the student information system",
+        "Restart your computer"
+      ],
+      "correctAnswer": "Open a new email message and check whether the signature appears",
+      "feedback": {
+        "correct": "Correct. A new email message allows you to check whether the signature appears.",
+        "incorrect": "Review the lesson. Open a new email message and check whether your signature appears."
+      }
+    },
+    {
+      "questionId": "q5",
+      "prompt": "What information should you avoid entering into the training tool?",
+      "options": [
+        "Your email password or other private account information",
+        "The lesson title",
+        "Your quiz answers",
+        "The number of checklist items completed"
+      ],
+      "correctAnswer": "Your email password or other private account information",
+      "feedback": {
+        "correct": "Correct. The training tool should not collect passwords or private account information.",
+        "incorrect": "Review the lesson. Never enter your password or other private account information into the training tool."
+      }
+    }
+  ]
+}
