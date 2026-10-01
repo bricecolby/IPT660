@@ -1,5 +1,5 @@
 ---
-name: Phase Outer Loop Ticket
+name: Phase Outer Loop Learning Contract
 about: 'This ticket is for each phase''s outer loop. '
 title: ''
 labels: ''

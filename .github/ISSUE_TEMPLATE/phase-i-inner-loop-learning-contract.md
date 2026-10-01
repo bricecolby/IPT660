@@ -1,5 +1,5 @@
 ---
-name: Phase I Learning Contract
+name: Phase I Inner Loop Learning Contract
 about: This sets up the mini-project you'll be doing as part of Phase I
 title: ''
 labels: ''
