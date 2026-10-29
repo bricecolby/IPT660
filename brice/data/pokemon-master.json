@@ -1,0 +1,114 @@
+{
+  "moduleId": "m00-pokemon-master",
+  "title": "How to Be a Pokémon Master",
+  "pokemon": [
+    { "name": "Bulbasaur", "types": ["Grass", "Poison"] },
+    { "name": "Charmander", "types": ["Fire"] },
+    { "name": "Squirtle", "types": ["Water"] },
+    { "name": "Pikachu", "types": ["Electric"] },
+    { "name": "Geodude", "types": ["Rock", "Ground"] },
+    { "name": "Pidgey", "types": ["Normal", "Flying"] },
+    { "name": "Caterpie", "types": ["Bug"] },
+    { "name": "Zubat", "types": ["Poison", "Flying"] },
+    { "name": "Psyduck", "types": ["Water"] },
+    { "name": "Machop", "types": ["Fighting"] },
+    { "name": "Gastly", "types": ["Ghost", "Poison"] },
+    { "name": "Eevee", "types": ["Normal"] },
+    { "name": "Vulpix", "types": ["Fire"] },
+    { "name": "Oddish", "types": ["Grass", "Poison"] },
+    { "name": "Sandshrew", "types": ["Ground"] },
+    { "name": "Magnemite", "types": ["Electric", "Steel"] },
+    { "name": "Dratini", "types": ["Dragon"] },
+    { "name": "Ralts", "types": ["Psychic", "Fairy"] },
+    { "name": "Scyther", "types": ["Bug", "Flying"] },
+    { "name": "Lapras", "types": ["Water", "Ice"] }
+  ],
+  "sections": [
+    {
+      "sectionId": "s1",
+      "heading": "The Core Loop: Catch, Train, Battle",
+      "image": null,
+      "body": "Every Pokémon journey runs on the same three-beat loop, over and over, from Route 1 to the Elite Four: you **catch** Pokémon to expand your options, you **train** them to make those options viable, and you **battle** to test whether your choices actually hold up. Most new trainers over-invest in the first beat (catching everything that moves) and under-invest in the third (actually battling with intention). A Pokémon Master isn't the trainer with the biggest Pokédex — it's the trainer who can look at any six Pokémon and tell you *why* those six, and what each one is for."
+    },
+    {
+      "sectionId": "s2",
+      "heading": "Types Aren't Flavor — They're the Rules of the Game",
+      "image": "https://preview.redd.it/easy-to-read-type-effectiveness-chart-for-newer-players-v0-zh41uur9deb71.jpg?auto=webp&s=1b14e9493cfff0391c54e33904a2e96894222f53",
+      "body": "The 18 Pokémon types form a directed graph of advantage: Fire beats Grass, Grass beats Water, Water beats Fire, and so on, with double-edges, resistances, and outright immunities layered on top (Ground moves simply cannot hit a Flying-type — 0x damage, not just reduced). Treat the type chart the way you'd treat any rule system you need to reason under: you don't need to memorize all 324 interactions on day one, but you do need a mental model good enough to predict *roughly* what happens before you commit to a move."
+    },
+    {
+      "sectionId": "s3",
+      "heading": "Team Composition: Six Slots, Many Jobs",
+      "image": null,
+      "body": "A team of six is a set of tradeoffs, not six copies of 'my favorite Pokémon.' Strong teams typically distribute a few recurring jobs across their slots: a **physical sweeper**, a **special sweeper**, a **wall or tank**, a **status/support** Pokémon, and often a **pivot**. You don't need one of each on every team, but you should be able to say what job every Pokémon on your team is doing — 'it's here because I like it' isn't a scoping decision, it's the absence of one."
+    },
+    {
+      "sectionId": "s4",
+      "heading": "Reading the Battle, Not Just the Move List",
+      "image": null,
+      "body": "Battling well is less about knowing your own Pokémon and more about modeling your opponent's incentives. Before you commit to a move, ask: what does my opponent want to do right now, and what's the worst thing that could happen to me if I'm wrong? Strong trainers play around likely responses — switching out before a predicted counter lands, or baiting an opponent into a bad trade."
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "q1",
+      "prompt": "A Ground-type move is used against a pure Flying-type Pokémon. What happens?",
+      "options": [
+        "It deals normal damage",
+        "It deals reduced (not very effective) damage",
+        "It deals zero damage — the move has no effect",
+        "It deals increased (super effective) damage"
+      ],
+      "correctAnswer": "It deals zero damage — the move has no effect",
+      "feedback": {
+        "correct": "Right — Flying-types are flatly immune to Ground-type moves, not just resistant.",
+        "incorrect": "Not quite — Flying-types have a full immunity to Ground moves (0x damage)."
+      }
+    },
+    {
+      "questionId": "q2",
+      "prompt": "Which of these is the best description of a 'pivot' Pokémon's job on a team?",
+      "options": [
+        "It deals the most raw damage on the team",
+        "It's built to switch in safely and scout or reposition the team, not necessarily to win the fight outright",
+        "It has the highest HP stat on the team",
+        "It's only used against Legendary Pokémon"
+      ],
+      "correctAnswer": "It's built to switch in safely and scout or reposition the team, not necessarily to win the fight outright",
+      "feedback": {
+        "correct": "Exactly — a pivot's value is tempo and safety.",
+        "incorrect": "A pivot's main job is tempo and safety on the switch, not raw damage or bulk."
+      }
+    },
+    {
+      "questionId": "q3",
+      "prompt": "A team is composed of six Pokémon chosen purely because they're the trainer's favorites, with no attention to type coverage or role. What is the most accurate critique?",
+      "options": [
+        "This is a perfectly valid strategy as long as the Pokémon have high base stats",
+        "The team lacks a scoped rationale — no one Pokémon's role, or the gaps between them, has been reasoned about",
+        "This team is guaranteed to lose to any team with an Elite Four member",
+        "Favorite-based teams always have better type coverage than planned teams"
+      ],
+      "correctAnswer": "The team lacks a scoped rationale — no one Pokémon's role, or the gaps between them, has been reasoned about",
+      "feedback": {
+        "correct": "Right — the issue isn't that favorites are bad Pokémon, it's that no tradeoff was actually made.",
+        "incorrect": "The real issue is that no deliberate role or tradeoff was reasoned about."
+      }
+    },
+    {
+      "questionId": "q4",
+      "prompt": "Before committing to a move, a strong trainer primarily asks themselves:",
+      "options": [
+        "What does my opponent most want to do right now, and what's my worst case if I'm wrong?",
+        "Which of my moves has the highest base power, regardless of type matchup?",
+        "Which Pokémon on my team has appeared in the most official artwork?",
+        "What would happen if I used this exact move in every future battle?"
+      ],
+      "correctAnswer": "What does my opponent most want to do right now, and what's my worst case if I'm wrong?",
+      "feedback": {
+        "correct": "Yes — read the opponent's likely response and bound your downside.",
+        "incorrect": "Think about the opponent's likely response before raw base power."
+      }
+    }
+  ]
+}
