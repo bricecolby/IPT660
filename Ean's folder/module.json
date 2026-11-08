@@ -1,0 +1,249 @@
+{
+  "module": {
+    "id": "international-student-job-interview-preparation",
+    "title": "Job Interview Preparation for International Students",
+    "version": "1.0.0",
+    "status": "draft",
+    "audience": {
+      "primary": "International college students preparing for entry-level job interviews in the United States",
+      "learner_needs": [
+        "Understand common United States interview expectations",
+        "Practice answering behavioral interview questions",
+        "Prepare for conversations about work authorization and sponsorship",
+        "Build confidence communicating with potential employers"
+      ],
+      "assumed_prior_knowledge": [
+        "Basic understanding of job searching",
+        "Some familiarity with resumes or CVs",
+        "Limited experience with United States interview norms"
+      ]
+    },
+    "summary": "This eLearning module helps international college students practice job interview skills, prepare professional responses, and reflect on how to communicate confidently with employers about qualifications, fit, and work authorization.",
+    "learning_objectives": [
+      {
+        "id": "lo-1",
+        "objective": "Identify basic best practices for preparing for an entry-level job interview in the United States."
+      },
+      {
+        "id": "lo-2",
+        "objective": "Use the STAR method to organize responses to behavioral interview questions."
+      },
+      {
+        "id": "lo-3",
+        "objective": "Recognize professional communication behaviors, including clear speaking, appropriate body language, and active listening."
+      },
+      {
+        "id": "lo-4",
+        "objective": "Practice responding to interview questions about experience, strengths, challenges, and workplace fit."
+      },
+      {
+        "id": "lo-5",
+        "objective": "Reflect on personal comfort, confidence, and improvement areas after completing a mock interview."
+      }
+    ],
+    "site_navigation": [
+      {
+        "label": "Home",
+        "page_id": "home"
+      },
+      {
+        "label": "Interview Preparation",
+        "page_id": "interview-preparation"
+      },
+      {
+        "label": "Interview Question Basics",
+        "page_id": "interview-question-basics"
+      },
+      {
+        "label": "Professional Communication",
+        "page_id": "professional-communication"
+      },
+      {
+        "label": "Mock Interview",
+        "page_id": "mock-interview"
+      },
+      {
+        "label": "Reflection",
+        "page_id": "reflection"
+      }
+    ],
+    "pages": [
+      {
+        "id": "home",
+        "title": "Welcome to the Interview Preparation Module",
+        "purpose": "Introduce the module, explain the learning objectives, and orient learners to the experience.",
+        "content_blocks": [
+          {
+            "type": "welcome_message",
+            "heading": "Welcome",
+            "body": "This module is designed for international college students who are preparing to search for jobs and interview with employers in the United States. You will review interview expectations, practice sample questions, and reflect on how to communicate your experience with confidence."
+          },
+          {
+            "type": "learning_objectives_summary",
+            "heading": "By the end of this module, you will be able to",
+            "items": [
+              "Prepare for an entry-level interview",
+              "Answer behavioral questions using a clear structure",
+              "Communicate professionally with employers",
+              "Practice talking about work authorization and sponsorship with care",
+              "Reflect on your performance and identify next steps"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "interview-preparation",
+        "title": "Interview Preparation",
+        "purpose": "Help learners prepare before an interview by researching the employer, reviewing the job description, planning professional dress, and organizing documents.",
+        "content_blocks": [
+          {
+            "type": "best_practices",
+            "heading": "Research the Employer",
+            "items": [
+              "Review the employer's website, mission, values, and recent news.",
+              "Look at the job posting and identify the skills the employer repeats or emphasizes.",
+              "Prepare one or two reasons why you are interested in the organization."
+            ]
+          },
+          {
+            "type": "best_practices",
+            "heading": "Understand the Job Description",
+            "items": [
+              "Highlight required skills, preferred qualifications, and job responsibilities.",
+              "Match your coursework, projects, internships, campus work, or volunteer experience to the role.",
+              "Prepare examples that show how you have used relevant skills."
+            ]
+          },
+          {
+            "type": "best_practices",
+            "heading": "Dress Professionally",
+            "items": [
+              "Choose clothing that is clean, comfortable, and appropriate for the employer's workplace.",
+              "If you have a limited budget, consider campus career closets, thrift stores, borrowing professional clothing, or choosing simple neutral items you can reuse.",
+              "Prioritize neatness, fit, and confidence over expensive clothing."
+            ]
+          },
+          {
+            "type": "best_practices",
+            "heading": "Prepare Documents",
+            "items": [
+              "Bring or upload an updated resume.",
+              "Prepare a CV only if the employer or field requests one.",
+              "Have a list of references ready if requested.",
+              "Keep copies of your portfolio, writing samples, or project links if they are relevant to the role."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "interview-question-basics",
+        "title": "Interview Question Basics",
+        "purpose": "Teach learners how to approach common interview question types.",
+        "content_blocks": [
+          {
+            "type": "lesson",
+            "heading": "Self Introductions",
+            "body": "A strong self introduction is brief, organized, and connected to the role. Include your name, academic background, one or two relevant experiences, and why you are interested in the position."
+          },
+          {
+            "type": "lesson",
+            "heading": "Strengths and Weaknesses",
+            "body": "When discussing strengths, give a specific example. When discussing a weakness, choose something real but manageable, explain what you are doing to improve, and avoid weaknesses that are central to the job."
+          },
+          {
+            "type": "lesson",
+            "heading": "STAR Method",
+            "body": "STAR stands for Situation, Task, Action, and Result. This structure helps you answer behavioral questions with a clear story instead of a general statement."
+          },
+          {
+            "type": "example",
+            "heading": "STAR Response Structure",
+            "items": [
+              "Situation: Describe the context.",
+              "Task: Explain your responsibility or goal.",
+              "Action: Describe what you did.",
+              "Result: Share the outcome or what you learned."
+            ]
+          },
+          {
+            "type": "lesson",
+            "heading": "Behavioral Questions",
+            "body": "Behavioral questions ask about past experiences because employers use them to understand how you may act in future workplace situations."
+          }
+        ]
+      },
+      {
+        "id": "professional-communication",
+        "title": "Professional Communication",
+        "purpose": "Help learners understand nonverbal and verbal communication expectations during interviews.",
+        "content_blocks": [
+          {
+            "type": "best_practices",
+            "heading": "Body Language",
+            "items": [
+              "Sit or stand with an open, attentive posture.",
+              "Avoid looking distracted by your phone or other screens.",
+              "Use natural gestures when speaking."
+            ]
+          },
+          {
+            "type": "best_practices",
+            "heading": "Eye Contact",
+            "items": [
+              "Use comfortable eye contact to show engagement.",
+              "If direct eye contact feels difficult, look near the interviewer's face or at the camera during virtual interviews.",
+              "Avoid staring without breaks."
+            ]
+          },
+          {
+            "type": "best_practices",
+            "heading": "Speaking Clearly",
+            "items": [
+              "Pause before answering if you need time to think.",
+              "Speak at a pace that helps the interviewer understand you.",
+              "Ask for clarification if a question is unclear."
+            ]
+          },
+          {
+            "type": "best_practices",
+            "heading": "Professional Vocabulary",
+            "items": [
+              "Use specific language about your skills, responsibilities, and results.",
+              "Avoid overly casual slang in formal interviews.",
+              "Practice explaining technical or academic experiences in plain language."
+            ]
+          },
+          {
+            "type": "lesson",
+            "heading": "Company Personality Fit",
+            "body": "Employers may ask questions to understand how you collaborate, communicate, and respond to feedback. Fit does not mean changing your personality. It means showing how your work style can contribute to the team."
+          }
+        ]
+      },
+      {
+        "id": "mock-interview",
+        "title": "Mock Interview",
+        "purpose": "Allow learners to practice realistic interview questions, type responses, and review their answers using a checklist.",
+        "activity_reference": "mock_interview_activity.json"
+      },
+      {
+        "id": "reflection",
+        "title": "Reflection",
+        "purpose": "Prompt learners to reflect on their interview practice and identify improvement goals.",
+        "activity_reference": "reflection_activity.json"
+      }
+    ],
+    "accessibility_notes": [
+      "Use plain language and short sections.",
+      "Provide written instructions for each activity.",
+      "Do not require audio or video recording for learners who are uncomfortable with those formats.",
+      "Use checklists so learners can self-assess without needing automated AI feedback."
+    ],
+    "out_of_scope": [
+      "Full website build",
+      "Interview questions for every industry",
+      "Personalized AI-generated feedback through an API",
+      "Legal advice about immigration or visa status"
+    ]
+  }
+}
