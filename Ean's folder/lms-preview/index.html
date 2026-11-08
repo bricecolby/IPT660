@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#163c63">
+  <meta name="description" content="An interview preparation learning module for international college students.">
+  <title>Interview Ready | Learning Module</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Course navigation">
+      <a class="brand" href="#home" aria-label="Interview Ready home">
+        <span class="brand-mark" aria-hidden="true">IR</span>
+        <span class="brand-copy"><strong>Interview Ready</strong><small>Career skills course</small></span>
+      </a>
+      <div class="course-label">YOUR LEARNING PATH</div>
+      <nav id="course-nav" class="course-nav"></nav>
+      <div class="sidebar-note">
+        <span class="note-icon" aria-hidden="true">✦</span>
+        <p>Practice at your own pace. Your written answers stay in this browser tab and are not sent or saved.</p>
+      </div>
+      <div class="sidebar-footer">A practical guide for your next interview</div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open course navigation" aria-expanded="false">☰</button>
+        <div class="breadcrumbs"><span>Learning module</span><span class="crumb-slash">/</span><strong id="current-crumb">Home</strong></div>
+        <div class="topbar-tag"><span class="status-dot"></span> Self-paced</div>
+      </header>
+      <div id="content" class="content" tabindex="-1"></div>
+      <footer class="page-footer"><span>Interview Ready</span><span>Learn • Practice • Reflect</span></footer>
+    </main>
+  </div>
+  <div class="scrim" id="scrim" hidden></div>
+</body>
+</html>
