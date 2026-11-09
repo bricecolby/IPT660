@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#a90f16" />
+    <title>UOS Mentor Launchpad</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#dashboard" aria-label="Utah Online School Mentor Launchpad home">
+          <span class="brand-mark" aria-hidden="true">UOS</span>
+          <span class="brand-copy"><strong>Utah Online School</strong><span>Mentor Launchpad</span></span>
+        </a>
+        <div class="topbar-right">
+          <span class="session-mentor">Jordan Miller</span>
+          <span class="session-divider" aria-hidden="true">|</span>
+          <span class="session-label">Current session</span>
+          <button class="avatar" type="button" aria-label="Jordan Miller profile">JM</button>
+        </div>
+      </header>
+
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <button class="primary-nav-link active" data-view="dashboard" type="button">Dashboard</button>
+        <button class="primary-nav-link" data-view="lesson" type="button">Lesson</button>
+        <button class="primary-nav-link" data-view="quiz" type="button">Quiz</button>
+      </nav>
+
+      <div class="app-layout">
+        <main id="main-content" class="main-content" tabindex="-1">
+          <div id="app-view" aria-live="polite"></div>
+        </main>
+      </div>
+      <footer class="mobile-footer">UOS Mentor Launchpad <span>·</span> Progress is temporary</footer>
+    </div>
+  </body>
+</html>
