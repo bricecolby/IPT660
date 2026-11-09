@@ -1,0 +1,126 @@
+{
+  "moduleId": "m03-mentor-expectations",
+  "title": "Mentor Expectations",
+  "learningOutcomes": [
+    "Learners will be able to identify the expected communication schedule for students and parents.",
+    "Learners will be able to describe how mentors monitor student progress and set goals with students.",
+    "Learners will be able to identify ways mentors support students and parents throughout the school year.",
+    "Learners will be able to identify when to document a communication or notify an administrator."
+  ],
+  "sections": [
+    {
+      "sectionId": "s1",
+      "heading": "Welcome to the Lesson",
+      "body": "Mentors are an important part of the State Online Education Program (SOEP) team. This lesson outlines the core expectations for communicating with students and parents, supporting student progress, and working with the school team."
+    },
+    {
+      "sectionId": "s2",
+      "heading": "Communicate with Students and Parents",
+      "body": "Communicate with every student or parent at least once a month. Communicate weekly with students who are identified as RED or at risk. See the Green Yellow RED interventions document for information about identifying RED students and pulling a report. Send a progress report email to all students on Wednesday afternoons. Send a welcome letter to new students to introduce yourself as their mentor. During the first two weeks, help new students log in and begin working, including through the 15 Day email. Encourage new students to complete the onboarding course. Get to know your students personally, follow up with them, and consider monthly incentives to build relationships and support success. Reference: Green Yellow RED interventions document: https://docs.google.com/a/washonline.org/document/d/1ZFmQ-8fcUJiSuS12-OX6I_ZKLIYE9rzxNWLgvhxGNDg/edit?usp=sharing."
+    },
+    {
+      "sectionId": "s3",
+      "heading": "Monitor Progress and Set Goals",
+      "body": "Track student progress in the LMS, either Edgenuity or Canvas. Canvas progress is available in the SIS Gradebook: find the student, select Enrollments on the left, choose Gradebook, then select a Canvas course. Verify student information in the SIS. Work with each student to set individual goals and create a plan together. Monitor progress toward the goals, follow up, and celebrate progress."
+    },
+    {
+      "sectionId": "s4",
+      "heading": "Help Students and Parents Get Started",
+      "body": "Help students log in and begin working, especially during their first two weeks. When requested, help parents set up guardian accounts in the SIS and show them how to use those accounts. Encourage new students to complete the onboarding course. Assist with state test proctoring when needed and help with social events in your area. Guardian account instructions: https://docs.google.com/a/washonline.org/document/d/1TcD_Jxb5YXqRZ8hRX48Scj7ykjcHtmxCMAdxLB11VBc/edit?usp=sharing. New students can access the onboarding course here: https://docs.google.com/a/washonline.org/spreadsheets/d/1OUFfxxeowyolnjkZpxTrecKWKr9RQJsu9Q649y2brYc/edit?usp=sharing."
+    },
+    {
+      "sectionId": "s5",
+      "heading": "Participate and Keep the Team Informed",
+      "body": "Attend staff meetings and mentor meetings, and submit the attendance form promptly. Log significant emails and communications in the SIS, such as a family death or another important event. Notify an administrator about significant or inappropriate emails or issues from students. Keep student information private and use approved school systems when documenting student details."
+    },
+    {
+      "sectionId": "s6",
+      "heading": "Current Session Progress",
+      "body": "The training tool displays your current-session progress, including sections opened, assignment checklist items completed, and quiz questions answered. This information is temporary and is not permanently stored. Do not enter student names or private student information into the training tool."
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "a1",
+      "title": "Review the Mentor Expectations",
+      "instructions": "Review the expectations for communication, progress monitoring, student and parent support, meetings, and documentation. Use the checklist to mark the expectations you have reviewed. Think about how you would set goals with a student and when you would document a communication or notify an administrator. Do not enter student names or private student information into the training tool."
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "q1",
+      "prompt": "How often should mentors communicate with every student or parent at minimum?",
+      "options": [
+        "At least once a month",
+        "Once each semester",
+        "Only when a student asks for help",
+        "Every school day"
+      ],
+      "correctAnswer": "At least once a month",
+      "feedback": {
+        "correct": "Correct. Mentors should communicate with every student or parent at least monthly, and weekly with students identified as RED or at risk.",
+        "incorrect": "Review the lesson. The minimum is monthly communication with every student or parent. RED or at-risk students need weekly communication."
+      }
+    },
+    {
+      "questionId": "q2",
+      "prompt": "When should mentors send the weekly progress report email to all students?",
+      "options": [
+        "Wednesday afternoon",
+        "Monday morning",
+        "Friday afternoon",
+        "At the end of each month"
+      ],
+      "correctAnswer": "Wednesday afternoon",
+      "feedback": {
+        "correct": "Correct. The weekly progress report email goes to all students on Wednesday afternoons.",
+        "incorrect": "Review the lesson. Send the weekly progress report email to all students on Wednesday afternoons."
+      }
+    },
+    {
+      "questionId": "q3",
+      "prompt": "Where can a mentor view a student's Canvas progress through the SIS?",
+      "options": [
+        "Find the student, open Enrollments, select Gradebook, then choose a Canvas course",
+        "Open the SIS home page and select the staff attendance form",
+        "Open the Google Drive training folder",
+        "Ask the student to email a screenshot of their grades"
+      ],
+      "correctAnswer": "Find the student, open Enrollments, select Gradebook, then choose a Canvas course",
+      "feedback": {
+        "correct": "Correct. The SIS path is Student, Enrollments, Gradebook, then a Canvas course.",
+        "incorrect": "Review the lesson. Find the student, select Enrollments, open Gradebook, and choose a Canvas course."
+      }
+    },
+    {
+      "questionId": "q4",
+      "prompt": "What should a mentor do after setting an individual goal with a student?",
+      "options": [
+        "Create a plan together, monitor progress, and celebrate progress toward the goal",
+        "Wait until the end of the year to check on the goal",
+        "Ask an administrator to set all goals without the student",
+        "Record the goal in the training tool with the student's name"
+      ],
+      "correctAnswer": "Create a plan together, monitor progress, and celebrate progress toward the goal",
+      "feedback": {
+        "correct": "Correct. Mentors and students create a plan together, monitor progress, and celebrate progress toward the goal.",
+        "incorrect": "Review the lesson. Set goals with the student, create a plan together, and monitor and celebrate progress."
+      }
+    },
+    {
+      "questionId": "q5",
+      "prompt": "What should a mentor do about a significant or inappropriate email or issue from a student?",
+      "options": [
+        "Notify an administrator and log significant communication in the SIS",
+        "Post the email in a public class discussion",
+        "Ignore it unless the student sends it again",
+        "Enter the student's private details in the training tool"
+      ],
+      "correctAnswer": "Notify an administrator and log significant communication in the SIS",
+      "feedback": {
+        "correct": "Correct. Notify an administrator about significant or inappropriate issues and log significant communications in the SIS.",
+        "incorrect": "Review the lesson. Notify an administrator about significant or inappropriate issues, and log significant communications in the SIS."
+      }
+    }
+  ]
+}
