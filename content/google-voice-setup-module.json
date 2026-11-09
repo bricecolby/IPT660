@@ -1,0 +1,131 @@
+{
+  "moduleId": "m02-google-voice-setup",
+  "title": "Set Up Google Voice for UOS",
+  "learningOutcomes": [
+    "Learners will be able to activate their assigned Google Voice number.",
+    "Learners will be able to record a voicemail greeting for their work Google Voice number.",
+    "Learners will be able to identify optional Google Voice settings that can support their work schedule and calls.",
+    "Learners will be able to identify how to place a call using their Google Voice number."
+  ],
+  "sections": [
+    {
+      "sectionId": "s1",
+      "heading": "Welcome to the Lesson",
+      "body": "In this lesson, you will set up Google Voice for Utah Online School work calls. You will activate your assigned number, record a voicemail greeting, review optional settings, and learn how to place calls using your Google Voice number."
+    },
+    {
+      "sectionId": "s2",
+      "heading": "Activate Your Google Voice Number",
+      "body": "You will be issued a Google Voice number from the school shortly after your start date. When the number is issued, you will receive an email from Google. Select the link in that email to connect your personal phone number to the account. If Google asks for a primary location, use the school office address: 2060 N 2100 W, St. George, UT 84770. The school will post your Google Voice number on its website, and you should include it in your email signature. You can use Google Voice in a browser at https://voice.google.com, in the phone app, or in both places."
+    },
+    {
+      "sectionId": "s3",
+      "heading": "Record a Voicemail Greeting",
+      "body": "In Google Voice settings, select Voicemail, then select Record a greeting. Your voicemail greeting must include your name and state that you are with Utah Online School."
+    },
+    {
+      "sectionId": "s4",
+      "heading": "Review Optional Call Settings",
+      "body": "Call screening is optional. To turn it off, use a laptop or desktop computer. In Google Voice settings, select Calls on the left, then turn off Screen calls. With call screening on, callers state their name before the call is forwarded to you. This can make the call take longer to reach you, and students may hang up while waiting. You can also turn on “Show my Google Voice Number as Caller ID when forwarding calls.” This can help you recognize work calls. These settings are optional."
+    },
+    {
+      "sectionId": "s5",
+      "heading": "Set Optional Working Hours",
+      "body": "You can have Google Voice send calls to voicemail outside your regular work hours. In Google Calendar settings, open Working hours & location and make sure Enable working hours is checked. Then open Google Voice availability settings and turn on Follow working hours. Google Voice settings: https://voice.google.com/u/1/settings#availabilitysettings. Google Calendar settings: https://calendar.google.com/calendar/u/1/r/settings. This setting is optional."
+    },
+    {
+      "sectionId": "s6",
+      "heading": "Place Calls and Check Voicemail",
+      "body": "Use the Google Voice app on your phone to place calls. This helps ensure the student sees your Google Voice number instead of your personal number. The app is also the quickest way to check Google Voice voicemail. You do not need the app to receive calls. If you turn on caller ID for forwarded calls, create a phone contact named “Utah Online” using your Google Voice number. Then calls directed to Google Voice can appear as Utah Online on your phone."
+    },
+    {
+      "sectionId": "s7",
+      "heading": "Current Session Progress",
+      "body": "The training tool displays your current-session progress, including sections opened, assignment checklist items completed, and quiz questions answered. This information is temporary and is not permanently stored."
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "a1",
+      "title": "Set Up Your UOS Google Voice Account",
+      "instructions": "After your school-issued Google Voice number arrives by email, follow the link to connect your personal phone number. If asked for a primary location, enter 2060 N 2100 W, St. George, UT 84770. Record a voicemail greeting that includes your name and states that you are with Utah Online School. Review the optional call screening, caller ID, and working hours settings. Add a contact named “Utah Online” with your Google Voice number if you turn on caller ID for forwarded calls. Use the Google Voice app to place calls so students see your Google Voice number. Return to the training module and confirm the steps you completed in the checklist. Do not enter your password or other private account information into the training tool."
+    }
+  ],
+  "quizBank": [
+    {
+      "questionId": "q1",
+      "prompt": "What should you do when you receive the Google email with your assigned Google Voice number?",
+      "options": [
+        "Follow the link to connect your personal phone number to the account",
+        "Share your Google password with the training tool",
+        "Delete the email without opening it",
+        "Create a new Google Voice number"
+      ],
+      "correctAnswer": "Follow the link to connect your personal phone number to the account",
+      "feedback": {
+        "correct": "Correct. Follow the link in the Google email to connect your personal phone number to your assigned account.",
+        "incorrect": "Review the lesson. The Google email includes a link to connect your personal phone number to your assigned Google Voice account."
+      }
+    },
+    {
+      "questionId": "q2",
+      "prompt": "What must your Google Voice voicemail greeting include?",
+      "options": [
+        "Your name and a statement that you are with Utah Online School",
+        "Your account password",
+        "Your personal phone number only",
+        "A list of your contacts"
+      ],
+      "correctAnswer": "Your name and a statement that you are with Utah Online School",
+      "feedback": {
+        "correct": "Correct. The greeting must include your name and state that you are with Utah Online School.",
+        "incorrect": "Review the lesson. Your greeting must include your name and state that you are with Utah Online School."
+      }
+    },
+    {
+      "questionId": "q3",
+      "prompt": "What can happen when call screening is enabled?",
+      "options": [
+        "The caller is asked to state their name before the call reaches you",
+        "Your Google Voice number is deleted",
+        "Calls can only be answered from a computer",
+        "Your voicemail greeting is turned off"
+      ],
+      "correctAnswer": "The caller is asked to state their name before the call reaches you",
+      "feedback": {
+        "correct": "Correct. Call screening asks the caller to state their name before forwarding the call.",
+        "incorrect": "Review the lesson. With call screening enabled, the caller is asked to state their name before the call reaches you."
+      }
+    },
+    {
+      "questionId": "q4",
+      "prompt": "Which setting can send calls to voicemail outside your regular work schedule?",
+      "options": [
+        "Follow working hours",
+        "Record a greeting",
+        "Show my Google Voice number as caller ID",
+        "Call screening"
+      ],
+      "correctAnswer": "Follow working hours",
+      "feedback": {
+        "correct": "Correct. Turn on Follow working hours after setting your schedule in Google Calendar.",
+        "incorrect": "Review the lesson. Set working hours in Google Calendar, then turn on Follow working hours in Google Voice."
+      }
+    },
+    {
+      "questionId": "q5",
+      "prompt": "What should you use to place a call so a student sees your Google Voice number instead of your personal number?",
+      "options": [
+        "The Google Voice phone app",
+        "The training module",
+        "Google Calendar",
+        "The voicemail greeting settings"
+      ],
+      "correctAnswer": "The Google Voice phone app",
+      "feedback": {
+        "correct": "Correct. Use the Google Voice app to place calls from your Google Voice number.",
+        "incorrect": "Review the lesson. Use the Google Voice phone app to place calls so students see your Google Voice number."
+      }
+    }
+  ]
+}
