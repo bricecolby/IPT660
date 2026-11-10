@@ -2,7 +2,7 @@
   "feedback_rubric": {
     "id": "mock-interview-self-assessment-rubric",
     "title": "Mock Interview Response Checklist",
-    "purpose": "Help learners evaluate their own interview responses without requiring automated AI feedback.",
+    "purpose": "Help learners evaluate their own interview responses with a transparent rubric and simple local practice cues.",
     "rating_scale": [
       {
         "value": 3,
@@ -77,6 +77,17 @@
       "Use examples from school, internships, jobs, volunteering, student organizations, or class projects.",
       "Do not memorize a script word for word. Practice key points so the answer sounds natural.",
       "For visa or sponsorship questions, answer clearly and confirm details with a trusted campus or legal resource."
-    ]
+    ],
+    "practice_feedback": {
+      "method": "local rubric reflection and basic text cues; no AI model or external service",
+      "disclaimer": "Practice hints are not a grade, employer assessment, legal review, or evaluation of immigration eligibility.",
+      "star_step_signals": {
+        "Situation": ["when", "during", "while", "on a project", "in my class", "at work"],
+        "Task": ["my goal", "my responsibility", "I was responsible", "I needed to", "the task was"],
+        "Action": ["I organized", "I created", "I led", "I researched", "I communicated", "I analyzed", "I coordinated", "I developed", "I proposed", "I worked"],
+        "Result": ["as a result", "the result", "the outcome", "we achieved", "I learned", "improved", "increased", "reduced", "completed"]
+      },
+      "completeness_hint": "The activity recommends at least four sentences so you have room for context, your actions, and an outcome or lesson."
+    }
   }
 }

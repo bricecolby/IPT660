@@ -39,6 +39,47 @@
       {
         "id": "lo-5",
         "objective": "Reflect on personal comfort, confidence, and improvement areas after completing a mock interview."
+      },
+      {
+        "id": "lo-6",
+        "objective": "Practice clear, accurate responses to work-authorization and sponsorship questions and identify trusted sources for individual guidance."
+      }
+    ],
+    "work_authorization_topics": [
+      {
+        "id": "current-authorization",
+        "title": "Current work authorization",
+        "employer_question": "What should I say if an employer asks about my current work authorization?",
+        "guidance": [
+          "Answer accurately and briefly. Share only the information the employer asks for through the appropriate hiring process.",
+          "If you are uncertain about terminology, dates, or what you may do, confirm with your campus international student office before the interview."
+        ],
+        "sample_response": "I can describe my current work authorization accurately, and I am happy to provide the appropriate details through your hiring process. I will confirm any timing or eligibility questions with my university's international student office.",
+        "resource_note": "For advice about your specific status, contact your campus international student office or a qualified immigration professional."
+      },
+      {
+        "id": "future-sponsorship",
+        "title": "Future sponsorship",
+        "employer_question": "Will you now or in the future require sponsorship for employment authorization?",
+        "guidance": [
+          "Answer the question truthfully based on your situation. Do not guess if you are unsure.",
+          "Keep the answer concise, and ask your campus international student office or a qualified professional to clarify details before the interview.",
+          "An employer's process, role requirements, costs, and timelines vary; avoid promising that sponsorship will be simple or guaranteed."
+        ],
+        "sample_response": "Based on my current understanding, I [will / will not / may] need sponsorship [now / in the future]. I can confirm the details and timing with my university's international student office and provide accurate information through your hiring process.",
+        "resource_note": "Replace the bracketed text only after you have confirmed what is accurate for your situation."
+      },
+      {
+        "id": "business-value",
+        "title": "Explaining your value to an employer",
+        "employer_question": "Why should our company consider hiring a candidate who may need sponsorship?",
+        "guidance": [
+          "Connect your skills, experience, and results to the requirements of this specific role.",
+          "Explain the contribution you can make. Do not assume that sponsorship automatically benefits every company or removes its costs and process requirements.",
+          "Let the employer evaluate its own hiring process; you can offer to provide accurate information when requested."
+        ],
+        "sample_response": "My experience in [relevant area] and my work on [specific example] match the needs of this role. I would bring [skill or contribution] to your team. I understand sponsorship involves company-specific steps, and I can provide accurate information through your hiring process.",
+        "resource_note": "Prepare one concrete example that shows how your skills can help meet the employer's stated needs."
       }
     ],
     "site_navigation": [
@@ -47,12 +88,20 @@
         "page_id": "home"
       },
       {
+        "label": "Session Dashboard",
+        "page_id": "session-dashboard"
+      },
+      {
         "label": "Interview Preparation",
         "page_id": "interview-preparation"
       },
       {
         "label": "Interview Question Basics",
         "page_id": "interview-question-basics"
+      },
+      {
+        "label": "Work Authorization & Sponsorship",
+        "page_id": "work-authorization"
       },
       {
         "label": "Professional Communication",
@@ -221,6 +270,33 @@
         ]
       },
       {
+        "id": "work-authorization",
+        "title": "Work Authorization & Sponsorship Conversations",
+        "purpose": "Practice concise, professional ways to discuss work authorization and employer sponsorship while keeping individual legal guidance with qualified campus or legal resources.",
+        "content_blocks": [
+          {
+            "type": "best_practices",
+            "heading": "Before the conversation",
+            "items": [
+              "Answer an employer's work-authorization questions truthfully and directly.",
+              "Know what you can accurately say about your current authorization and whether you may need sponsorship now or in the future.",
+              "If you are unsure about your status, timing, or eligibility, ask your campus international student office or a qualified immigration professional before the interview.",
+              "Do not share passport numbers, immigration document numbers, or other sensitive identifiers in this practice activity."
+            ]
+          },
+          {
+            "type": "lesson",
+            "heading": "How sponsorship can fit a hiring conversation",
+            "body": "Employers may have a sponsorship process with role-specific requirements, timelines, costs, and compliance steps. Those details vary. You can explain the value you bring to the role—such as relevant skills, experience, and potential contributions—while letting the employer assess its process. Sponsorship is not a guarantee of eligibility or hiring."
+          },
+          {
+            "type": "lesson",
+            "heading": "Make the business case about your contribution",
+            "body": "When asked why a company should consider hiring you, connect your qualifications to the job's needs. You might describe specialized skills, experience serving diverse customers or teams, language abilities relevant to the role, or a record of learning quickly. Focus on evidence and fit rather than assuming sponsorship automatically benefits every employer."
+          }
+        ]
+      },
+      {
         "id": "mock-interview",
         "title": "Mock Interview",
         "purpose": "Allow learners to practice realistic interview questions, type responses, and review their answers using a checklist.",
@@ -237,10 +313,11 @@
       "Use plain language and short sections.",
       "Provide written instructions for each activity.",
       "Do not require audio or video recording for learners who are uncomfortable with those formats.",
-      "Use checklists so learners can self-assess without needing automated AI feedback."
+      "Use checklists and transparent, local practice hints so learners can self-assess without AI scoring.",
+      "Keep session progress in page memory only; do not send or permanently store learner answers or identifiers."
     ],
     "out_of_scope": [
-      "Full website build",
+      "Production LMS deployment, user accounts, instructor tools, or permanent learner record storage",
       "Interview questions for every industry",
       "Personalized AI-generated feedback through an API",
       "Legal advice about immigration or visa status"
