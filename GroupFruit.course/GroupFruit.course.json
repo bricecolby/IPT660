@@ -1,4 +1,3 @@
-
 {
   "moduleId": "groupfruit-Tester-role",
   "title": "GroupFruit — Chapter 8: The Tester Role",
@@ -17,8 +16,8 @@
       "body": "The Tester provides evaluation. Testers ask essential questions about who, what, when, where, and why. They identify risks, warn of potential problems, consider costs and logistics, and help protect people from unintended consequences. Effective Testers improve ideas rather than attack people.",
       "images": [
         {
-          "src": "PLACEHOLDER_IMAGE_PATH",
-          "alt": "PLACEHOLDER_IMAGE_DESCRIPTION"
+          "src": "tester page image 1.png",
+          "alt": "A raspberry character notices a danger sign and helps another character out of a strong current, illustrating how a Tester identifies risks."
         }
       ],
       "priorKnowledgePrompt": "Think of a time when someone in a group identified a problem that others had overlooked."
@@ -34,7 +33,13 @@
         },
         {
           "title": "Groupthink",
-          "body": "PLACEHOLDER: Add the chapter explanation and supporting research."
+          "body": "PLACEHOLDER: Add the chapter explanation and supporting research.",
+          "video": {
+            "embedUrl": "https://www.youtube.com/embed/CWEvJciU0Zc",
+            "url": "https://www.youtube.com/watch?v=CWEvJciU0Zc",
+            "provider": "YouTube",
+            "title": "Groupthink — A Short Introduction"
+          }
         },
         {
           "title": "Value of the Divergent Voice",
@@ -43,6 +48,12 @@
         {
           "title": "Challenger Example",
           "body": "PLACEHOLDER: Add your Challenger example and supporting sources."
+        }
+      ],
+      "images": [
+        {
+          "src": "tester page image 2.png",
+          "alt": "A raspberry character examines a clue with a magnifying glass, illustrating evaluation and careful questions."
         }
       ]
     },
@@ -54,7 +65,13 @@
     {
       "sectionId": "s4",
       "heading": "Problems the Tester Role Alleviates",
-      "body": "PLACEHOLDER: Explain classroom group-learning problems that the Tester role can help alleviate."
+      "body": "PLACEHOLDER: Explain classroom group-learning problems that the Tester role can help alleviate.",
+      "images": [
+        {
+          "src": "tester page image 3.png",
+          "alt": "A raspberry character holds a shield, illustrating how the Tester role can help protect a group from overlooked risks."
+        }
+      ]
     },
     {
       "sectionId": "s5",
@@ -64,8 +81,19 @@
     {
       "sectionId": "s6",
       "heading": "Brief Quiz",
-      "body": "Complete five questions about the Tester role.",
-      "quizBankReference": "quizBank"
+      "body": "Complete five questions about the Tester role. Optional gentle practice prompts let you try voicing concerns respectfully.",
+      "quizBankReference": "quizBank",
+      "scenarioPractice": {
+        "examples": [
+          "I know all of you like this idea, but I feel worried about it.",
+          "What if it rains?",
+          "What effect will this have on people in wheelchairs?",
+          "I do not feel this is safe.",
+          "Before we decide, let's figure out how much it would cost."
+        ],
+        "instructions": "Read each situation and practice raising the concern respectfully. These examples are for reflection and are not graded.",
+        "title": "Practice a gentle Tester voice"
+      }
     },
     {
       "sectionId": "s7",
@@ -114,7 +142,13 @@
       "feedback": {
         "correct": "Correct. The Tester provides evaluation, identifies potential problems, and asks essential questions.",
         "incorrect": "The Tester focuses on evaluating ideas and anticipating risks rather than documenting tasks, directing meetings, or primarily generating ideas."
-      }
+      },
+      "chapterReferences": [
+        {
+          "label": "Review Role Functions",
+          "sectionId": "s2"
+        }
+      ]
     },
     {
       "questionId": "q2",
@@ -127,9 +161,21 @@
       ],
       "correctAnswer": "Honestly voices concerns about an idea",
       "feedback": {
-        "correct": "Yes! Wise group members listen carefully to the divergent voice that identifies risks and missing information.",
-        "incorrect": "The most effective Tester raises concerns constructively while avoiding personal attacks and identifying hazards, inconsistencies, and missing information."
-      }
+        "correct": "Yes! Wise group members will listen to the divergent voice.",
+        "incorrect": "The most effective Tester also uses the Unifier role while pointing out hazards, inconsistencies, and missing information."
+      },
+      "chapterReferences": [
+        {
+          "topicTitle": "Avoiding Ad Hominem Attacks",
+          "label": "Review constructive Tester behavior",
+          "sectionId": "s2"
+        },
+        {
+          "topicTitle": "Value of the Divergent Voice",
+          "label": "Review the value of a divergent voice",
+          "sectionId": "s2"
+        }
+      ]
     },
     {
       "questionId": "q3",
@@ -144,7 +190,14 @@
       "feedback": {
         "correct": "Correct. A divergent voice can help a group examine assumptions and identify potential problems.",
         "incorrect": "A divergent voice is valuable because it may reveal overlooked risks, concerns, or information. Its purpose is not to guarantee agreement or reject every idea."
-      }
+      },
+      "chapterReferences": [
+        {
+          "topicTitle": "Value of the Divergent Voice",
+          "label": "Review the value of a divergent voice",
+          "sectionId": "s2"
+        }
+      ]
     },
     {
       "questionId": "q4",
@@ -159,7 +212,14 @@
       "feedback": {
         "correct": "Correct. Groupthink can occur when pressure for agreement discourages critical examination of a decision.",
         "incorrect": "Groupthink involves pressure toward agreement that can suppress doubts or alternative viewpoints. Respectful questioning helps counter that pressure."
-      }
+      },
+      "chapterReferences": [
+        {
+          "topicTitle": "Groupthink",
+          "label": "Review Groupthink",
+          "sectionId": "s2"
+        }
+      ]
     },
     {
       "questionId": "q5",
@@ -174,7 +234,126 @@
       "feedback": {
         "correct": "Correct. The Tester identifies risks and practical concerns. Considering an alternative plan allows the group to respond constructively.",
         "incorrect": "The Tester's question identifies a possible problem. The group can evaluate that risk and consider alternatives rather than dismissing the concern or reacting without discussion."
-      }
+      },
+      "chapterReferences": [
+        {
+          "label": "Review Tester risks and practical concerns",
+          "sectionId": "s1"
+        },
+        {
+          "label": "Review identifying risks and consequences",
+          "sectionId": "s2"
+        }
+      ]
+    }
+  ],
+  "roleTheme": "Raspberry Triage & Trust Evaluation",
+  "views": [
+    {
+      "contentSectionIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "images": [
+        {
+          "src": "tester page image 1.png",
+          "alt": "Primary Chapter 8 image: a raspberry character notices a danger sign and helps another character out of a strong current.",
+          "placement": "prominent chapter image"
+        },
+        {
+          "src": "tester page image 2.png",
+          "alt": "A raspberry character uses a magnifying glass to examine a clue.",
+          "placement": "Role Functions supporting image"
+        },
+        {
+          "src": "tester page image 3.png",
+          "alt": "A raspberry character holds a shield.",
+          "placement": "supporting image"
+        },
+        {
+          "src": "image for many pages raspberry 1 .png",
+          "alt": "Pink raspberry character in the course palette.",
+          "placement": "recurring accent image"
+        }
+      ],
+      "label": "Chapter 8 View",
+      "actions": [
+        {
+          "label": "Go to Quiz",
+          "targetViewId": "quiz"
+        }
+      ],
+      "title": "Chapter 8: The Tester Role",
+      "viewId": "chapter"
+    },
+    {
+      "label": "Quiz View",
+      "actions": [
+        {
+          "label": "Go to Dashboard",
+          "targetViewId": "dashboard"
+        }
+      ],
+      "introduction": "Answer five ungraded questions about the Tester role. Feedback guides you to the related Chapter 8 information.",
+      "viewId": "quiz",
+      "title": "Brief Quiz",
+      "images": [
+        {
+          "src": "tester page image 2.png",
+          "alt": "A raspberry character uses a magnifying glass to examine a clue.",
+          "placement": "quiz introduction image"
+        },
+        {
+          "src": "image for many pages raspberry 1 .png",
+          "alt": "Pink raspberry character in the course palette.",
+          "placement": "recurring accent image"
+        },
+        {
+          "src": "image for many pages raspberry 2 .png",
+          "alt": "Orange raspberry character that uses the Tester accent color.",
+          "placement": "small supporting image"
+        }
+      ],
+      "scenarioPracticeReference": "s6.scenarioPractice",
+      "questionBankReference": "quizBank"
+    },
+    {
+      "images": [
+        {
+          "src": "tester page image 3.png",
+          "alt": "A raspberry character holds a shield.",
+          "placement": "Dashboard supporting image"
+        },
+        {
+          "src": "image for many pages raspberry 1 .png",
+          "alt": "Pink raspberry character in the course palette.",
+          "placement": "recurring accent image"
+        },
+        {
+          "src": "image for many pages raspberry 2 .png",
+          "alt": "Orange raspberry character that uses the Tester accent color.",
+          "placement": "supporting image"
+        }
+      ],
+      "label": "Dashboard",
+      "sessionData": [
+        "answers",
+        "scores",
+        "feedback",
+        "recommendedChapterSections"
+      ],
+      "recommendationRule": "For each missed answer, show its feedback and the linked Chapter 8 section or topic from the associated chapterReferences.",
+      "title": "Quiz Results & Needed Instruction",
+      "actions": [
+        {
+          "label": "Return to Chapter 8",
+          "targetViewId": "chapter"
+        }
+      ],
+      "viewId": "dashboard"
     }
   ]
 }
