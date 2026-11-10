@@ -21,14 +21,14 @@ assignees: ''
 - What I'll be able to do by Dec 10:
 
 ## Plan
-<!-- How will you learn it and build it? Name the resources you'll use and what you'll have done by each date. -->
+<!-- How will you learn it and build it? Name the resources you'll use and what you'll have done by each date. Copy/paste additional steps as needed. -->
 
-| Target date | What I'll learn (and where from) | What I'll build | Done when |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+### Step 1
+- Target date:
+- What I'll learn (and where from):
+- What I'll build:
+- Done when:
+
 
 ## Outputs
 <!-- What will you turn in? These should be things I can open. Add or remove items to fit your project. -->
