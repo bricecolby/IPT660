@@ -47,7 +47,15 @@
         },
         {
           "title": "Challenger Example",
-          "body": "PLACEHOLDER: Add your Challenger example and supporting sources."
+          "body": "This short dramatized example shows how groupthink affected decision-making around the Space Shuttle Challenger disaster.",
+          "video": {
+            "embedUrl": "https://www.youtube.com/embed/USJ8OSIjhvk",
+            "url": "https://www.youtube.com/watch?v=USJ8OSIjhvk",
+            "provider": "YouTube",
+            "title": "Groupthink and the Challenger Disaster",
+            "description": "A theatrical representation of groupthink based on the events surrounding the Challenger disaster.",
+            "source": "https://www.thevirtualleadershiplab.com/2019/08/tvll-017-groupthink.html"
+          }
         }
       ],
       "images": [
