@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1260" viewBox="0 0 1800 1260" role="img" aria-labelledby="title desc">
+  <title id="title">Back Pocket — Component Diagram</title>
+  <desc id="desc">A frontend-only component diagram showing the student teacher, web app views, diagnostic quiz engine, session tracker, content loader, local JSON content files, and external resources. Notes and database are out-of-scope future placeholders.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+    <style>
+      text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+      .title { font-size: 34px; font-weight: 750; }
+      .subtitle { font-size: 17px; fill: #526078; }
+      .boundary-title { font-size: 21px; font-weight: 700; fill: #4338ca; }
+      .section { font-size: 13px; font-weight: 750; letter-spacing: 1.15px; fill: #64748b; }
+      .box-title { font-size: 19px; font-weight: 700; }
+      .body { font-size: 15px; fill: #334155; }
+      .small { font-size: 13px; fill: #475569; }
+      .label { font-size: 13px; font-weight: 600; fill: #334155; }
+      .actor-title { font-size: 19px; font-weight: 700; fill: #fff; }
+      .actor-body { font-size: 14px; fill: #e2e8f0; }
+      .component { fill: #fff1e6; stroke: #f59e0b; stroke-width: 2; }
+      .component-strong { fill: #ffdfc4; stroke: #f97316; stroke-width: 2.3; }
+      .asset { fill: #eaf3ff; stroke: #3b82f6; stroke-width: 2; }
+      .external { fill: #fff; stroke: #64748b; stroke-width: 2; }
+      .placeholder { fill: #eef0f3; stroke: #aab2bd; stroke-width: 2; stroke-dasharray: 8 6; }
+      .line { fill: none; stroke: #334155; stroke-width: 2.2; marker-end: url(#arrow); }
+      .line-both { fill: none; stroke: #334155; stroke-width: 2.2; marker-start: url(#arrow); marker-end: url(#arrow); }
+      .line-blue { fill: none; stroke: #2563eb; stroke-width: 2.2; marker-end: url(#arrowBlue); }
+      .line-dashed { fill: none; stroke: #94a3b8; stroke-width: 2; stroke-dasharray: 8 7; marker-end: url(#arrow); }
+      .tag { fill: #fff; stroke: #d8dee8; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1260" fill="#ffffff"/>
+  <text x="900" y="58" text-anchor="middle" class="title">Back Pocket — Component Diagram</text>
+  <text x="900" y="89" text-anchor="middle" class="subtitle">Frontend-only diagnostic quiz and tip library; instructional content is bundled as local JSON.</text>
+
+  <!-- Scope legend -->
+  <g transform="translate(520 112)">
+    <rect x="0" y="0" width="18" height="18" rx="4" fill="#ffdfc4" stroke="#f97316"/>
+    <text x="27" y="14" class="small">In-scope app component</text>
+    <rect x="205" y="0" width="18" height="18" rx="4" fill="#eaf3ff" stroke="#3b82f6"/>
+    <text x="232" y="14" class="small">Bundled JSON asset</text>
+    <rect x="405" y="0" width="18" height="18" rx="4" fill="#fff" stroke="#64748b"/>
+    <text x="432" y="14" class="small">External website</text>
+    <rect x="585" y="0" width="18" height="18" rx="4" fill="#eef0f3" stroke="#aab2bd" stroke-dasharray="4 3"/>
+    <text x="612" y="14" class="small">Future placeholder — out of scope</text>
+  </g>
+
+  <!-- User actor -->
+  <rect x="38" y="475" width="220" height="190" rx="16" fill="#475569" stroke="#334155" stroke-width="2"/>
+  <text x="148" y="525" text-anchor="middle" class="actor-title">Student Teacher</text>
+  <text x="148" y="556" text-anchor="middle" class="actor-body">Uses the diagnostic quiz</text>
+  <text x="148" y="580" text-anchor="middle" class="actor-body">Browses recommended tips</text>
+  <text x="148" y="604" text-anchor="middle" class="actor-body">Opens optional source links</text>
+
+  <!-- App boundary -->
+  <rect x="292" y="166" width="1190" height="880" rx="20" fill="#f8faff" stroke="#6366f1" stroke-width="2.5" stroke-dasharray="12 8"/>
+  <text x="322" y="204" class="boundary-title">BACK POCKET WEB APP</text>
+  <text x="1450" y="202" text-anchor="end" class="small">Browser frontend • no server or database in this project</text>
+
+  <text x="332" y="243" class="section">USER INTERFACE</text>
+  <text x="760" y="243" class="section">APP LOGIC</text>
+  <text x="1150" y="243" class="section">BUNDLED CONTENT FILES</text>
+
+  <!-- UI components -->
+  <rect x="330" y="266" width="350" height="175" rx="14" class="component"/>
+  <text x="505" y="298" text-anchor="middle" class="box-title">Home View</text>
+  <text x="354" y="329" class="body">• Start or resume the diagnostic quiz</text>
+  <text x="354" y="355" class="body">• Show this session’s result summary</text>
+  <text x="354" y="381" class="body">• Navigate to matched tips</text>
+  <text x="354" y="415" class="small">Displays state supplied by Session Tracker</text>
+
+  <rect x="330" y="482" width="350" height="166" rx="14" class="component"/>
+  <text x="505" y="514" text-anchor="middle" class="box-title">Quiz View</text>
+  <text x="354" y="547" class="body">• Presents one diagnostic question at a time</text>
+  <text x="354" y="573" class="body">• Captures the teacher’s selected answers</text>
+  <text x="354" y="599" class="body">• Shows completion and matched focus areas</text>
+  <text x="354" y="628" class="small">Does not decide the recommendations</text>
+
+  <rect x="330" y="690" width="350" height="166" rx="14" class="component"/>
+  <text x="505" y="722" text-anchor="middle" class="box-title">Tip Library View</text>
+  <text x="354" y="755" class="body">• Displays tips matched to quiz results</text>
+  <text x="354" y="781" class="body">• Supports browsing the tip collection</text>
+  <text x="354" y="807" class="body">• Offers source links when a tip has one</text>
+  <text x="354" y="836" class="small">External links open only when selected</text>
+
+  <!-- App logic -->
+  <rect x="755" y="280" width="340" height="145" rx="14" class="component-strong"/>
+  <text x="925" y="313" text-anchor="middle" class="box-title">Session Tracker</text>
+  <text x="780" y="346" class="body">• Holds answers and quiz progress in memory</text>
+  <text x="780" y="372" class="body">• Keeps the current result for the views</text>
+  <text x="780" y="402" class="small">Current browser session only; no persistence</text>
+
+  <rect x="755" y="490" width="340" height="166" rx="14" class="component-strong"/>
+  <text x="925" y="523" text-anchor="middle" class="box-title">Diagnostic Quiz Engine</text>
+  <text x="780" y="556" class="body">• Advances and scores the diagnostic quiz</text>
+  <text x="780" y="582" class="body">• Applies answer-to-focus-area rules</text>
+  <text x="780" y="608" class="body">• Returns matched areas / tip tags</text>
+  <text x="780" y="638" class="small">Quiz logic stays separate from the view</text>
+
+  <rect x="755" y="721" width="340" height="150" rx="14" class="component-strong"/>
+  <text x="925" y="754" text-anchor="middle" class="box-title">Content Loader</text>
+  <text x="780" y="787" class="body">• Reads bundled JSON files</text>
+  <text x="780" y="813" class="body">• Supplies quiz questions and tip records</text>
+  <text x="780" y="839" class="body">• Resolves tip IDs / tags for the views</text>
+  <text x="780" y="859" class="small">Loads local app assets; makes no API calls</text>
+
+  <!-- Local JSON assets -->
+  <rect x="1150" y="430" width="290" height="145" rx="14" class="asset"/>
+  <text x="1295" y="464" text-anchor="middle" class="box-title">Quiz Questions JSON</text>
+  <text x="1174" y="497" class="body">• Question text and choices</text>
+  <text x="1174" y="523" class="body">• Answer keys / scoring metadata</text>
+  <text x="1174" y="552" class="small">Bundled with the frontend</text>
+
+  <rect x="1150" y="665" width="290" height="190" rx="14" class="asset"/>
+  <text x="1295" y="699" text-anchor="middle" class="box-title">Tips Content JSON</text>
+  <text x="1174" y="732" class="body">• Tip text, IDs, and focus tags</text>
+  <text x="1174" y="758" class="body">• BYU / community source labels</text>
+  <text x="1174" y="784" class="body">• Optional external URLs</text>
+  <text x="1174" y="817" class="small">Stores references, not external page content</text>
+  <text x="1174" y="839" class="small">Bundled local file; no remote content feed</text>
+
+  <!-- External resources outside the app -->
+  <rect x="1530" y="665" width="235" height="190" rx="14" class="external"/>
+  <text x="1647" y="699" text-anchor="middle" class="box-title">External Websites</text>
+  <text x="1552" y="735" class="body">BYU sources</text>
+  <text x="1552" y="761" class="body">Community sources</text>
+  <text x="1552" y="800" class="small">Opened in the browser from</text>
+  <text x="1552" y="822" class="small">a user-selected tip link</text>
+  <text x="1647" y="845" text-anchor="middle" class="small">Outside app boundary</text>
+
+  <!-- User interactions -->
+  <path d="M258 520 H294 V350 H330" class="line"/>
+  <path d="M258 568 H310 V565 H330" class="line"/>
+  <path d="M258 615 H294 V772 H330" class="line"/>
+  <text x="272" y="332" class="label">uses views</text>
+
+  <!-- Navigation / view data -->
+  <path d="M680 365 H715 V565 H680" class="line"/>
+  <text x="689" y="457" class="label">start quiz</text>
+  <path d="M680 391 H730 V772 H680" class="line"/>
+  <text x="687" y="687" class="label">view tips</text>
+
+  <!-- Home and tracker -->
+  <path d="M755 334 H680" class="line"/>
+  <text x="687" y="321" class="label">session summary</text>
+  <path d="M680 414 H716 V405 H755" class="line"/>
+  <text x="687" y="436" class="label">start / resume</text>
+
+  <!-- Quiz view / engine, two-way interaction -->
+  <path d="M680 542 H755" class="line-both"/>
+  <rect x="685" y="512" width="65" height="24" rx="6" class="tag"/>
+  <text x="717" y="529" text-anchor="middle" class="label">Q / A</text>
+
+  <!-- Tip view / loader, two-way interaction -->
+  <path d="M680 770 H755" class="line-both"/>
+  <rect x="684" y="740" width="67" height="24" rx="6" class="tag"/>
+  <text x="717" y="757" text-anchor="middle" class="label">tip data</text>
+
+  <!-- Quiz engine and session state -->
+  <path d="M925 490 V425" class="line-both"/>
+  <rect x="939" y="442" width="130" height="25" rx="6" class="tag"/>
+  <text x="1004" y="459" text-anchor="middle" class="label">progress / result</text>
+
+  <!-- Loader reads both data files -->
+  <path d="M1150 501 H1118 V759 H1095" class="line-blue"/>
+  <rect x="1096" y="606" width="54" height="25" rx="6" class="tag"/>
+  <text x="1123" y="623" text-anchor="middle" class="label">loads</text>
+  <path d="M1150 760 H1095" class="line-blue"/>
+  <rect x="1098" y="729" width="48" height="24" rx="6" class="tag"/>
+  <text x="1122" y="746" text-anchor="middle" class="label">loads</text>
+
+  <!-- Engine uses loaded question set -->
+  <path d="M925 656 V721" class="line-both"/>
+  <rect x="936" y="674" width="145" height="27" rx="6" class="tag"/>
+  <text x="1008" y="692" text-anchor="middle" class="label">request / questions</text>
+
+  <!-- External source link: URL reference in JSON, user action opens site -->
+  <path d="M1440 789 H1530" class="line"/>
+  <rect x="1448" y="754" width="76" height="24" rx="6" class="tag"/>
+  <text x="1486" y="771" text-anchor="middle" class="label">URL link</text>
+
+  <!-- Out-of-scope future backend placeholders -->
+  <rect x="370" y="1090" width="1245" height="125" rx="16" fill="#f5f6f8" stroke="#cbd0d8" stroke-width="1.5"/>
+  <text x="398" y="1120" class="section">FUTURE OPTIONS — OUT OF SCOPE FOR THIS PROJECT</text>
+  <rect x="420" y="1140" width="400" height="58" rx="11" class="placeholder"/>
+  <text x="620" y="1165" text-anchor="middle" class="box-title" style="font-size:16px">User Notes</text>
+  <text x="620" y="1186" text-anchor="middle" class="small">Would require persistent storage</text>
+  <rect x="1050" y="1140" width="400" height="58" rx="11" class="placeholder"/>
+  <text x="1250" y="1165" text-anchor="middle" class="box-title" style="font-size:16px">Database / Backend</text>
+  <text x="1250" y="1186" text-anchor="middle" class="small">Not built; no data is sent to a server</text>
+  <path d="M680 856 V1080 H620 V1140" class="line-dashed"/>
+  <path d="M820 1169 H1050" class="line-dashed"/>
+  <text x="845" y="1158" class="small">future persistence only</text>
+
+  <text x="900" y="1238" text-anchor="middle" class="small">Current build scope: views + quiz engine + session-only state + content loader + bundled JSON. No notes persistence, database, backend, or embedded external websites.</text>
+</svg>
