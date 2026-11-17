@@ -318,11 +318,6 @@
           "src": "image for many pages raspberry 1 .png",
           "alt": "Pink raspberry character in the course palette.",
           "placement": "recurring accent image"
-        },
-        {
-          "src": "image for many pages raspberry 2 .png",
-          "alt": "Orange raspberry character that uses the Tester accent color.",
-          "placement": "small supporting image"
         }
       ],
       "scenarioPracticeReference": "s6.scenarioPractice",
@@ -339,11 +334,6 @@
           "src": "image for many pages raspberry 1 .png",
           "alt": "Pink raspberry character in the course palette.",
           "placement": "recurring accent image"
-        },
-        {
-          "src": "image for many pages raspberry 2 .png",
-          "alt": "Orange raspberry character that uses the Tester accent color.",
-          "placement": "supporting image"
         }
       ],
       "label": "Dashboard",
