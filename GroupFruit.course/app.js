@@ -89,10 +89,10 @@ function renderChapter() {
   if (sections.some((section) => section.sectionId === "s1")) session.viewedSections.add("s1");
 
   main.innerHTML = `${pageHeading("Chapter 8 · R1 Deliver content", chapterView?.title ?? "The Tester Role", "Read about the Tester, reflect on overlooked risks, and use the ungraded quiz for personal feedback.")}
-    <section class="hero-card"><div class="hero-copy"><p class="eyebrow">${escapeHtml(course.audience ?? "")}</p><h2>A thoughtful question can help a group make a stronger decision.</h2><p>The Tester evaluates ideas, asks essential questions, and helps a group notice risks and practical concerns.</p>${primaryImage ? `<div class="chapter-primary-image">${imageMarkup(primaryImage, "section-image")}</div>` : ""}<div class="callout-row"><p>Ready to check your understanding? The quiz is ungraded and gives feedback as you go.</p><button class="button" type="button" data-go="quiz">Go to the quiz</button></div></div></section>
+    <section class="hero-card"><div class="hero-copy"><p class="eyebrow">${escapeHtml(course.audience ?? "")}</p><h2>A thoughtful question can help a group make a stronger decision.</h2><p>The Tester evaluates ideas, asks essential questions, and helps a group notice risks and practical concerns.</p>${primaryImage ? `<div class="chapter-primary-image">${imageMarkup(primaryImage, "section-image")}</div>` : ""}</div></section>
     <div class="section-grid">${displaySections.map(chapterSectionMarkup).join("")}</div>
     ${imageGallery(supportingImages, "Additional Chapter 8 illustrations")}
-    <div class="wireframe-view__actions"><button class="button" type="button" data-go="quiz">Go to the quiz</button></div>`;
+    <div class="callout-row"><p>Ready to check your understanding? The quiz is ungraded and gives feedback as you go.</p><button class="button" type="button" data-go="quiz">Go to the quiz</button></div>`;
 }
 
 function chapterReferenceLinks(question) {
@@ -120,7 +120,7 @@ function renderQuestion(question, index) {
   }).join("");
   const feedback = answer ? feedbackMarkup(question, answer) : "";
   const action = answer
-    ? `<button class="button secondary" type="button" data-reset-answer="${escapeHtml(question.questionId)}">Try this question again</button>`
+    ? (answer.correct ? "" : `<button class="button secondary" type="button" data-reset-answer="${escapeHtml(question.questionId)}">Try this question again</button>`)
     : `<button class="button" type="button" data-check-answer="${escapeHtml(question.questionId)}" ${selected ? "" : "disabled"}>Check answer</button>`;
   return `<li class="question-card" id="${escapeHtml(question.questionId)}" data-question-card="${escapeHtml(question.questionId)}"><div class="question-top"><span class="question-number">${index + 1}</span><h2>${escapeHtml(question.prompt)}</h2></div><fieldset class="answer-options" aria-label="Choose an answer">${options}</fieldset><div class="question-actions">${action}</div>${feedback}</li>`;
 }
